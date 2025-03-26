@@ -1,0 +1,91 @@
+body {
+  overflow-x: hidden;
+  font-family: "Nunito", sans-serif;
+}
+
+
+/* nav styles */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.686);
+  transition: background-color 0.3s ease-in-out;
+}
+/*------------*/
+
+#main h1 {
+  font-size: 60px;
+  color: #143c70;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(images/foodArticleImgs/flavorsJapanHero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 30px 0;
+  position: relative;
+  border-radius: 18px;
+}
+
+.main-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: rgba(77, 64, 52, 0.306);
+  z-index: 0;
+  border-radius: 18px;
+}
+
+.main-content {
+  z-index: 1;
+  position: absolute;
+  color: #ffddaa;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.mainHeading1{
+  font-size: 70px;
+}
+
+.heading {
+  font-family: "Kaushan Script";
+}
+
+.orange-text{
+  color: #a28150;
+}
+
+.mainHeading {
+  font-size: 55px;
+  margin-top: 30px;
+}
+.subHeading {
+  font-size: 55px;
+  margin-top: 30px;
+}
+
+.intro-text{
+  text-align: justify;
+  background-color: #e3efff;
+}
+
+.mainHeading2{
+color: #143c70;
+}
+
+.img1{
+  width: 100%;
+}
