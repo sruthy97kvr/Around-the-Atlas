@@ -1,0 +1,103 @@
+/* styles for 'destinations.html' */
+.banner {
+    min-height: 90vh;
+    width: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2016/07/22/04/03/rio-de-janeiro-1534128_1280.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    transition: background-size 0.4s ease-in-out;
+}
+
+.banner:hover {
+    background-size: 110% 110%;
+}
+
+
+.desh1 {
+    font-family: "Kaushan Script", cursive;
+    color: #31578a;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 500px;
+}
+
+h3 {
+    font-family: "Kaushan Script", cursive;
+}
+
+.desti {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.conti-img {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    transition: filter 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out;
+}
+
+.conti-img:hover {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+
+
+.des-name {
+    font-family: "Nunito", sans-serif;
+}
+
+.countries {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+
+.countries:hover {
+    color: orange;
+}
+
+.countries::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 5px;
+    background-color: grey;
+    transition: transform 0.25s ease-out;
+}
+
+.countries:hover::after {
+    transform: scaleX(1);
+}
+
+.description {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+    color: grey;
+}
+
+.conti:hover+.description {
+    opacity: 1;
+    max-height: 100px;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* styles for 'japan.html' */
+.heading{
+    min-height: 10vh;
+    width: 100%;
+}
+
+.japanh1{
+    font-family: "Kaushan Script", cursive;
+    color: #31578a;
+    font-size: 60px;
+}
