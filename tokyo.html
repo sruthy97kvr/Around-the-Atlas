@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokyo</title>
+    <link rel="stylesheet" href="./tokyo.css">
+    <!-- Font awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Dr+Sugiyama&family=Engagement&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quintessential&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap" rel="stylesheet">
+
+<!-- Bootstrap cdn -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: #FCC9B9;">
+
+<!-- navbar -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand text-dark" href="Home.html">
+            <img src="./pictures/logo-nbg.png" alt="Logo" width="200" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto " style="margin-right: -70px;">
+              <li class="nav-item"><a class="nav-link text-light" href="#">Destination</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#">Author</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#">Contact</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#">Login</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><button class="btn" style="margin-top: -6px;"><span
+                      class="iconamoon--search-dark"></span></button>
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+
+
+        <div class="section">
+
+            <h2 class="discover" style="text-align: center; ">Let's Dive Into The City Filled With Sakura!</h2>
+            <img class="imgflag" src="./images/japanflag.png" alt="" height="100px" >
+            <img  class="img1" src="./images/japp-removebg-preview.png" alt="" height="150px">
+
+     
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg class="japan-path" style="height:300px" data-asc="1.009" viewBox="0 5.7 202.7 65.4" xmlns="http://www.w3.org/2000/svg">
+            <g transform="translate(0)" fill="#aa6f5f">
+            <path d="m23.6 48.3-0.9 0.15q-2.8 0-4.52-4.08-1.73-4.07-1.73-10.4 0-6.32 1.4-13.37 0-0.4-0.5-0.4-1.25 0.1-1.6 0.77-0.35 0.68-1.15 3.43t-1.72 7.75q-0.93 5-0.93 10.1t1.28 8.1q1.27 3 4.42 3 2.1 0 4.33-1.38 2.22-1.37 2.22-2.92 0-0.75-0.6-0.75m-21.9-29.6q5.5-2.95 14.65-5.45t16.05-2.85q1.1 0.15 1.1 1.12 0 0.98-0.57 2.53-0.58 1.55-1.48 1.6-4.7 0.3-15.42 3.1-10.73 2.8-15.03 5.9-0.3 0.15-0.55 0.15-0.45 0-0.45-0.85t0.68-2.95q0.67-2.1 1.02-2.3zm35.65 26.5q-2.35 0-3.7-1.2t-1.55-3.05q-0.8 0.6-0.8 2.22 0 1.63 0.93 2.85 0.92 1.23 2.3 1.23 1.37 0 2.1-0.7 0.72-0.7 0.72-1.35m1.95-3.35q0.15 0.45 0.38 0.45 0.22 0 0.77-0.28 0.55-0.27 0.95-0.27t0.4 0.5-1.07 1.65q-1.08 1.15-1.83 1.15-1.05 2.85-3.47 5.27-2.43 2.43-4.98 2.43-1.8 0-3-1.18-1.2-1.17-1.2-3.45 0-2.27 1.9-4.95 1.9-2.67 3.9-2.67v-0.2q0-1.1 0.75-1.78 0.75-0.67 1.85-0.67 3.4 0 4.65 4zm2.75-2.85q1.2-3 2.25-6.87 1.05-3.88 1.05-5.73t-0.32-2.7q-0.33-0.85-0.78-0.85-1.65 0-2.2 9.2v6.95m13.3 5.35q-0.25 0-0.47 0.27-0.23 0.28-0.58 0.65-0.35 0.38-1.5 1-1.15 0.63-2.35 0.63-2.15 0-3.67-1.73-1.53-1.72-1.53-2.6 0-0.87-0.25-0.97-0.25 0-0.65 0.75-1.05 1.95-1.05 4.57 0 2.63 1.43 4.1 1.42 1.48 3.02 1.48 2.75 0 5.5-2.88 2.75-2.87 2.75-4.32 0-0.95-0.65-0.95m-13.25-2.95v0.3q0 0.6 0.13 0.6 0.12 0 0.32-0.2 1.1-3.15 2.75-5.48 1.65-2.32 3.6-2.32 1.75 0 1.75 2.35 0 0.85-0.82 2.32-0.83 1.48-1.58 1.48-0.3 0-0.6-0.48-0.3-0.47-1.05-0.47-1.45 0-2.45 1.27-1 1.28-1.45 3.28-0.7 3.4-0.7 6.5 0 1.5-1.35 1.5-0.25 0-0.25-0.45 0.2-3.25 0.2-8.15v-7.1q0-9.25 0.65-12.6 0.75-3.7 1.9-4.8 0.7-0.65 1.65-0.65 2.7 0 2.7 4.05t-1.87 9.95q-1.88 5.9-3.53 9.1zm23.1 24.05q1.2 0 1.2-9.9 0-2.1-0.05-3.1-3.15 4.25-3.15 7.65 0 1.95 0.47 3.65 0.48 1.7 1.53 1.7m-7.9-25.95-0.2 2q0 2.15 1.42 3.62 1.43 1.48 3.48 1.53 1.25-0.05 2.33-0.73 1.07-0.67 1.52-1.27l0.4-0.65q0.05-1.7 0.5-2.85 0.7-1.95 1.65-1.95h0.15q0.55 0.2 0.55 1.6 0 0.6-1.15 2.35l-0.4 0.65q0 3.85 0.05 5.7 2.9-2.75 4.3-4.5 0.65-0.5 1.02-0.5 0.38 0 0.38 0.37 0 0.38-0.65 0.93-1.5 1.2-5 5.05l0.15 7.65q0 6.2-0.85 9.4t-3.2 3.2q-1.9 0-3.15-1.95t-1.25-4.25q0-4.4 1.82-7.63 1.83-3.22 5.18-6.52-0.1-3.6-0.1-3.95t-0.28-0.35q-0.27 0-0.62 0.5-1.75 1.85-2.55 2.6-2.15 2.1-4.32 2.1-2.18 0-3.46-1.45-1.27-1.45-1.27-4.13 0-2.67 1.02-4.9 1.03-2.22 1.93-2.22 0.6 0 0.6 0.55zm24.4 5.7q-2.35 0-3.7-1.2t-1.55-3.05q-0.8 0.6-0.8 2.22 0 1.63 0.93 2.85 0.92 1.23 2.3 1.23 1.37 0 2.09-0.7 0.73-0.7 0.73-1.35m1.95-3.35q0.15 0.45 0.38 0.45 0.22 0 0.77-0.28 0.55-0.27 0.95-0.27t0.4 0.5-1.07 1.65q-1.08 1.15-1.83 1.15-1.05 2.85-3.48 5.27-2.42 2.43-4.97 2.43-1.8 0-3-1.18-1.2-1.17-1.2-3.45 0-2.27 1.9-4.95 1.9-2.67 3.9-2.67v-0.2q0-1.1 0.75-1.78 0.75-0.67 1.85-0.67 3.4 0 4.65 4zm8.8 6.2q0 4.8-3.05 8.3-0.3 0.35-0.57 0.35-0.28 0-0.48-0.45 0-0.15 0.75-1.4t0.75-2.28q0-1.02-0.47-1.37-0.48-0.35-1.08-0.4t-1.08-0.53q-0.47-0.47-0.47-1.6 0-1.12 0.88-2.12 0.87-1 2.52-1 2.05 0 2.3 2.5zm27.9-32.7q0.9-0.5 1.3-0.5t0.4 0.35q-0.5 2.75-0.5 3.2 0 2.2 1.8 12.15t1.8 11.92q0 1.98-0.4 3.55-0.4 1.58-1.22 3.28-0.83 1.7-2.53 2.82-1.7 1.13-4.1 1.13t-5.92-3.33q-3.53-3.32-3.53-5.27 0-0.65 0.38-1.03 0.37-0.37 1.47-1.45 1.1-1.07 1.73-1.8 0.62-0.72 0.97-0.72 0.2 0 1.6 2.12 1.4 2.13 3.43 4.25 2.02 2.13 3.82 2.13t1.8-4.6q0-3.6-1.72-12.58-1.73-8.97-1.73-11.52t1.15-4.1m-10.6-1.5q2.55-1.6 10.7-4.88 8.15-3.27 10.5-3.27 0.85 0 0.85 0.87 0 0.88-0.55 2.25-0.55 1.38-0.95 2.03-0.5 0.65-2.6 1.35-4.35 1.35-10.12 3.65-5.78 2.3-7.2 3.25-1.43 0.95-1.85 0.95-0.43 0-0.43-0.93 0-0.92 0.63-2.97 0.62-2.05 1.02-2.3zm30.7 30.2-0.2 1.4q0 0.9 0.78 1.87 0.77 0.98 1.82 0.98 0.8 0 1.3-0.35 1.1-0.75 1.38-1.03 0.27-0.27 0.9-0.27 0.62 0 0.62 0.45 0 0.5-2.35 3.15-0.75 0.85-2.2 1.8t-2.57 0.95q-1.13 0-1.7-0.38-0.58-0.37-0.83-1.17-0.3-1.1-0.3-2.7 0-0.2-0.25-0.2t-1.15 1q-2.8 2.9-4.52 2.9-1.73 0-2.65-0.9-0.93-0.9-0.93-2.3 0-2.45 1.3-4.68 1.3-2.22 3.1-3.57 4-2.95 6.2-2.95 3.3 0.1 3.3 2.35 0 0.8-0.7 1.57-0.7 0.78-1.3 0.78t-1.65-1.05-2.3-1.05-2.05 1.02q-0.8 1.03-0.8 2.63 0 2.6 2.75 2.6 1.1 0 1.83-0.55 0.72-0.55 1.02-1.2 0.85-1.7 1.55-1.7 0.6 0 0.6 0.6zm12.15-0.35q-1.4 0-2.05 5.15 1.3 1.55 3.05 1.55 0.8 0 1.8-0.5 0.4-1.2 0.4-2.5t-1.05-2.5-2.15-1.2m-4 2.9 0.35-6.3q0-0.3-0.17-0.3-0.18 0-0.5 0.45-0.33 0.45-0.88 0.45t-0.55-0.35 0.45-0.88q0.45-0.52 1.02-1.9 0.58-1.37 1.03-2.3 0.45-0.92 0.85-0.92 0.55 0 0.85 0.47 0.3 0.48 0.3 0.88t-0.45 2.7-0.45 3.37q0 1.08 0.25 1.08 0.1 0 0.93-1.08 0.82-1.07 2-2.15 1.17-1.07 2.17-1.07 3.7 0 3.7 4.25 0 2.95-1.65 5.4 2.5-1.75 4.55-3.65l0.7-0.65q0.6 0 0.6 0.35 0 0.85-2.13 2.82-2.12 1.98-5.44 3.93-3.33 1.95-6.13 2.55-0.1 2.5-0.1 4.05t0.17 2.77q0.18 1.23 0.18 1.81 0 0.57-0.45 0.94-0.45 0.38-0.95 0.38-0.65 0-0.7-0.85t-0.05-4.15 0.05-4.7q-1.35 0-2.15-1.23-0.8-1.22-0.8-2.32t0.98-2.45q0.97-1.35 2.42-1.4zm25.55-2.55-0.2 1.4q0 0.9 0.78 1.87 0.77 0.98 1.82 0.98 0.8 0 1.3-0.35 1.1-0.75 1.38-1.03 0.27-0.27 0.9-0.27 0.62 0 0.62 0.45 0 0.5-2.35 3.15-0.75 0.85-2.2 1.8t-2.57 0.95q-1.13 0-1.7-0.38-0.58-0.37-0.83-1.17-0.3-1.1-0.3-2.7 0-0.2-0.25-0.2t-1.15 1q-2.8 2.9-4.52 2.9-1.73 0-2.65-0.9-0.93-0.9-0.93-2.3 0-2.45 1.3-4.68 1.3-2.22 3.1-3.57 4-2.95 6.2-2.95 3.3 0.1 3.3 2.35 0 0.8-0.7 1.57-0.7 0.78-1.3 0.78t-1.65-1.05-2.3-1.05-2.05 1.02q-0.8 1.03-0.8 2.63 0 2.6 2.75 2.6 1.1 0 1.83-0.55 0.72-0.55 1.02-1.2 0.85-1.7 1.55-1.7 0.6 0 0.6 0.6zm5.55 2.1q0-0.8 1.55-2.63 1.55-1.82 2.53-1.82 0.97 0 1.45 0.75 0.47 0.75 0.57 1.65t0.58 1.65q0.47 0.75 1.4 0.75 0.92 0 1.65-0.83 0.72-0.82 1.17-1.85 0.45-1.02 1.2-1.85 0.75-0.82 1.48-0.82 0.72 0 1.02 0.6 3.1 6.65 6.3 6.65 0.5 0 0.9-0.15t0.6-0.15q0.6 0 0.6 0.95 0 1.7-1.77 3.05-1.78 1.35-3.63 1.35t-3.12-1.2q-1.28-1.2-1.75-2.48-0.48-1.27-0.7-2.47-0.23-1.2-0.48-1.2-0.4 0-1.57 1.57-1.18 1.58-2.65 3.18-1.48 1.6-2.63 1.6-1.2-0.15-1.9-1.18-0.7-1.02-0.9-2.12-0.45-3-1.9-3z"/>
+            </g>
+            <g transform="translate(0 72.5)" fill="#fcc9b9"/>
+            </svg>
+           
+            <div class="content">
+
+                <div class="paragraph"><span style="color: goldenrod;">Tokyo</span>,is a city where tradition meets the future, blending ancient temples with neon-lit skyscrapers and bustling streets. The aroma of fresh <span style="color: goldenrod;">sushi</span>  fills the air at <span style="color: goldenrod;">Tsukiji Market,</span> while the vibrant energy of <span style="color: goldenrod;">Akihabara</span> excites tech and anime lovers. Whether strolling through <span style="color:rgb(230, 145, 159);">cherry blossom</span>-lined parks or exploring high-tech districts, Tokyo offers an unforgettable mix of history, fashion, and cutting-edge technology, making it a city like no other!</div>
+            <!--  Known for its delicious Swiss chocolate and premium watches, Switzerland is also home to a rich cultural heritage and a reputation for excellence. Whether you seek adventure, relaxation, or luxury, Switzerland promises an unforgettable experience. -->
+               </div>
+
+        </div>
+
+        <div class="general-info-container">
+            <h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+        text-underline-offset: 15px; text-decoration-thickness: 1px; color: #205673;">General Information</h1>
+        <div class="grid">
+            
+         <div class="box1"><i class="fa-solid fa-globe" style="color: #604848 ;"></i> &nbsp;<br><p style="font-size: 30px; color: #205673 ;">Continent</p>
+              <p>Asia</p></div>
+        <div class="box1"><i class="fa-solid fa-city" style="color: #604848 ;"></i>&nbsp;<br><p style="font-size: 30px; color: #205673;">Capital</p>
+               <p>Tokyo</p></div>
+        <div class="box1"><i class="fa-solid fa-language" style="color: #604848 ;"></i>&nbsp; <br><p style="font-size: 30px;color: #205673;">Language</p>
+                 <p>Japanese</p></div>
+        <div class="box1"><i class="fa-solid fa-person" style="color: #604848 ;"></i>&nbsp;<br><p style="font-size: 30px;color: #205673;"> Population</p>
+              <p> 13.96 million </p></div>
+        <div class="box1"><i class="fa-solid fa-passport" style="color: #604848 ;"></i>&nbsp; <br><p style="font-size: 30px;color: #205673;">Visa</p>   
+                   <p> Japan Visa required for non-japanese travelers</p></div>
+        <div class="box1"><i class="fa-solid fa-clock" style="color: #604848 ;" ></i>&nbsp;<br> <p style="font-size: 30px;color: #205673;">TimeZone</p>
+                 <p>Japanese Standard Time (UTC+9) </p>
+               </div>
+        <div class="box1"><i class="fa-solid fa-wallet" style="color: #604848 ;"></i>&nbsp;<br> <p style="font-size: 30px;color: #205673;">Currency</p>
+                  <p>Japanese Yen (¥)</p></div>
+        <div class="box1"><i class="fa-solid fa-face-smile" style="color: #604848 ;"></i>&nbsp;<br> <p style="font-size: 30px;color: #205673;">Famous for</p>
+         <p>Anime, Cherry blossoms, Mount Fuji, Sushi, Bullet trains, Shinto shrines..</p>           
+        </div>
+        <div class="box1"><i class="fa-solid fa-plane-departure" style="color: #604848 ;"></i>&nbsp;<br> <p style="font-size: 30px;color: #205673;">Travel Means</p>
+            <p>By Air, Rail and Seaways (ferry)</p>           
+           </div>
+           <div class="box1"><i class="fa-solid fa-cloud-sun" style="color: #604848 ;"></i>&nbsp;<br> <p style="font-size: 30px;color: #205673;">Months to visit</p>
+            <p> March to May & September to November.</p>           
+           </div>
+        
+        </div>
+        
+        
+        </div> <br><br>
+
+        <div class="flex">
+
+            <div class="contents">
+                <h1 style="color: #205673;text-decoration: underline; line-height: 2; text-underline-offset: 15px; text-decoration-thickness: 1px; ">About</h1> <br>
+                <p class="p1">Tokyo, the vibrant capital of Japan, is a mesmerizing blend of ultramodern innovation and deep-rooted tradition. Towering skyscrapers and neon-lit streets define its futuristic skyline, while centuries-old temples and shrines offer a glimpse into its rich cultural past. As one of the most populous cities in the world, Tokyo thrives on its diversity,catering to different lifestyles—whether it's fashion, business, or gaming and anime culture. The city’s public transport system, including the famous bullet trains (Shinkansen) and the efficient subway network, makes it easy for locals and visitors alike to explore every corner of this dynamic metropolis.</p>
+        
+                  <p class="p2"> Japan, as a whole, is a country of contrast and harmony, where tradition and modernity coexist seamlessly. Known for its breathtaking natural beauty, the country boasts iconic landmarks such as Mount Fuji, the Arashiyama Bamboo Forest, and the historic temples of Kyoto. Japan is also famous for its deep culinary heritage, offering everything from world-renowned sushi and ramen to unique street food experiences. The nation’s meticulous craftsmanship is evident in its high-quality technology, precision watches, and artistic practices like origami and tea ceremonies.</p>
+                  <!-- <p class="p3">Whether you're drawn to the bustling energy of Tokyo, the peaceful countryside, or the historic sites of Kyoto and Hiroshima, Japan offers a unique travel experience that balances the past and future in a way that few countries can.</p> -->
+            </div>
+          <div class="gallery">
+            <div class="gallery-container">
+                <img src="pictures/shinto.jpg" class="gallery-item">
+                <img src="pictures/shinkansen.jpeg" class="gallery-item">
+                <img src="pictures/mmm.webp" class="gallery-item">
+                <img src="pictures/tokyo.jpeg" class="gallery-item">
+            </div>
+            </div> 
+        </div>
+
+            <h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+text-underline-offset: 15px; text-decoration-thickness: 1px; color:#205673;">Popular destinations</h1>
+
+<div class="letter">
+  <img class="jletter" src="./pictures/japanese_letter.png" alt="" height="100px">
+</div>
+
+<div class="cards">
+ <div class="items ms-4">
+
+
+     <div class="c1">
+    <div class="card" style="width: 18rem; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); ">
+        <img src="./pictures/shinjuku.jpeg" class="card-img-top" alt="..." style="height: 210px;">
+        <div class="card-body" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+            <h2>Shinjuku</h2>
+          <p class="card-text" style="text-align: start;">Shinjuku is one of Tokyo’s most vibrant and busiest districts, known for its skyscrapers, shopping, entertainment, and nightlife and is a mix of city life & traditions.
+          
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="c1">
+      <div class="card" style="width: 18rem; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+        <img src="./pictures/akasuka.webp" class="card-img-top" alt="..." style="height: 210px;">
+        <div class="card-body" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+           <h2>Asakusa Shrine</h2>
+          <p class="card-text"style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">Asakusa Shrine is a historic Shinto shrine located in Tokyo. It was built in 1649 by the Tokugawa shogunate to honor the three fishermen who founded Senso-ji.</p>
+        </div>
+      </div>
+    </div>
+   
+    <div class="c1">
+      <div class="card" style="width: 18rem;  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+        <img src="./pictures/mountfuji.jpeg" class="card-img-top" style="height: 210px;" alt="...">
+        <div class="card-body" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+            <h2>Mount Fuji</h2>
+          <p class="card-text"  style= "text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">Mount Fuji is Japan’s highest mountain, standing at 3,776 meters (12,389 feet). It is an active stratovolcano, though it last erupted in 1707-1708. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="c1">
+      <div class="card" style="width: 18rem;box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+        <img src="./pictures/ueno.webp" class="card-img-top" alt="..." style="height: 210px;">
+        <div class="card-body" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+            <h2>Ueno Park & Zoo</h2>
+          <p class="card-text">Ueno Park is one of Tokyo’s most famous public parks, known for its cherry blossoms, museums, and cultural landmarks. It’s a great spot for a relaxing day in the city.</p>
+        </div>
+      </div>
+    </div>
+
+
+ </div>
+
+
+</div> <br><br><br>
+
+
+<h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+text-underline-offset: 15px; text-decoration-thickness: 1px; color: #205673;">Major Celebrations & Cultural Festivities</h1>
+ <div class="flex1">
+
+  <div class="baselcontent">
+    <p class="headerFestival">1.Cherry Blossom Festivals (Hanami)</p> 
+    <p class="baselpara">📅 March to April  <br>
+      🎭 Japan's most celebrated event <br>
+      
+      Hanami (花見), meaning "flower viewing," is a beloved Japanese tradition of enjoying cherry blossoms (sakura) in full bloom. It typically takes place from late March to early April, depending on the region. People gather in parks for picnics, food, and celebrations under the pink blossoms.</p>
+
+  </div>
+
+  <div class="baselphoto">
+    <video src="./pictures/istockphoto-2154816571-640_adpp_is.mp4" alt="" height="550px" width="550px" autoplay loop muted>
+  </div>
+
+ </div> 
+
+ <div class="flex2" style="margin-top: 20px;">
+  
+<div class="swissphoto">
+  <video src="./pictures/yukata.mp4 " alt="" height="550px" width="550px"  autoplay loop muted>
+
+</div>
+<div class="swisscontent">
+  <p class="headerFestival">2. Gion Matsuri (祇園祭) </p> 
+  <p class="swisspara">📅 July <br>
+    🎆 Japan’s Biggest National Celebration <br>
+    
+    One of Japan’s oldest and biggest festivals, dating back over 1,100 years. It features massive floats, parades, traditional music, and vibrant street celebrations.Started in 869 AD as a ritual to stop plagues.Over the centuries, it grew into a major cultural and religious event.</p>
+
+</div>
+
+ </div> 
+
+ <div class="flex1" style="margin-top: 20px;">
+
+  <div class="baselcontent">
+    <p class="headerFestival">3.Awa Odori (Tokushima)</p> 
+    <p class="baselpara">📅 August 12-15<br>
+      🎆 Japan’s Biggest Dance Festival <br>
+      
+      
+      Japan’s largest dance festival, attracting over 1.3 million visitors every year! The streets come alive with energetic traditional dances, music, and colorful costumes.Originated over 400 years ago during the Edo period. Believed to have started in 1586, when Tokushima’s feudal lord threw a huge celebration and people danced in the streets. Now, it’s one of Japan’s most vibrant and energetic festivals. </p>
+
+  </div>
+
+  <div class="baselphoto">
+    <video src="./pictures/dance.mp4" alt="" height="550px" width="550px" autoplay loop muted>
+  </div>
+
+ </div>
+
+ <h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+text-underline-offset: 15px; text-decoration-thickness: 1px; color: #205673;">Important Landmarks</h1> <br><br>
+ <div class="landmarks">
+  
+   <div class="landmarkimages"> 
+    <div class="i1"><img src="./pictures/tokyotower.jpg" alt="" height="350px" width="350px" >
+      <div class="overlay">Tokyo Tower</div>
+    </div>
+    <div class="i1"><img src="./pictures/pagoda.avif" alt="" height="350px" width="350px" ><div class="overlay">Chureito Pagoda<br>Fujiyoshida </div></div>
+   
+    <div class="i1"><img src="./pictures/mtfuji.avif" alt="" height="350px" width="350px" ><div class="overlay">Mount Fuji <br></div></div>
+
+    <div class="i1"><img src="./pictures/Miyajima.avif" alt="" height="350px" width="350px" ><div class="overlay">Miyajima  <br>(Itsukushima Island) </div></div>
+
+   </div>
+
+
+ </div> <br><br>
+  
+ <h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+ text-underline-offset: 15px; text-decoration-thickness: 1px; color: #205673;">Popular Food and Cuisines</h1> <br>
+ 
+ <div class="food" style="margin-top: 10px;">
+
+  <div class="foodcontent1">
+    <p class="headerFestival">1. Sushi (寿司) </p> 
+    <p class="food1para">Sushi is one of the most famous Japanese foods. <br>It consists of vinegared rice (shari) combined with <br> various ingredients like raw fish, seafood, and vegetables.</p>
+
+  </div>
+
+
+  <div class="food1photo">
+    <img src="./pictures/sushi.webp" alt="" height="400px" width="450px" style="border-radius: 50%;">
+  </div>
+</div> 
+
+  <div class="food2" style="margin-top: 10px;">
+  
+    <div class="food2photo">
+      <img src="./pictures/ramen1.jpg" alt="" height="400px" width="450px" style="border-radius: 50%;">
+    
+    </div>
+    <div class="food2content">
+      <p class="headerFestival">2. Ramen (ラーメン)  </p> 
+      <p class="food1para">
+        Ramen is a popular Japanese dish consisting of wheat noodles <br> served in a savory broth,topped with various ingredients. It's a <br>must-try comfort food in Japan, especially in Tokyo, where unique <br> regional styles exist.
+
+
+
+         </p>
+    
+    </div>
+    
+     </div> 
+
+
+     <div class="food" style="margin-top: 50px;">
+
+      <div class="foodcontent1">
+        <p class="headerFestival">3.Okonomiyaki (お好み焼き)</p> 
+        <p class="food1para">Okonomiyaki is a Japanese-style savory pancake made <br>with flour, eggs, shredded cabbage, and various toppings. <br>The name "okonomiyaki" (お好み焼き) means "grilled as you  <br>like", because you can customize it with different ingredients.</p>
+    
+      </div>
+    
+    
+      <div class="food1photo">
+        <img src="./pictures/Okonomiyaki.jpg" alt="" height="400px" width="450px" style="border-radius: 50%;">
+      </div>
+    </div>  <br><br><br><br>
+ 
+
+    
+    <div class="griding">
+        <div class="iframe">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1580736.9834571525!2d138.45046637125023!3d35.502058001281895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokyo%2C%20Japan!5e1!3m2!1sen!2sin!4v1743144387838!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+  
+        <div class="climate">
+          <h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+   text-underline-offset: 15px; text-decoration-thickness: 1px; color: #205673;">Best Time to Visit for Different Activities</h1> <br>
+  <p>
+     
+   <span style="color: #604848">Best for Cherry Blossoms & Mild Weather</span>:  March – April<br>
+   <span style="color: #604848;">Best for Festivals & Fireworks (but very hot!)</span>:  July – August <br>
+   <span style="color: #604848;"> Best for Fall Colors & Comfortable Weather</span>: October – November <br>
+   <span style="color: #604848;">Best for Illuminations & Fewer Crowds</span>:  December – February  
+  </p>
+        </div>
+      </div> <br><br>
+
+         
+<!-- foroter -->
+<section class="footer">
+  <br><br><br>
+
+  <div class="container-fluid">
+     <div class="dark-logo">
+      <img src="./pictures/logo-dark.png" alt="">
+     </div>
+     <br>
+     <div class="container service">
+       <br><br>
+          <p style="font-size: large; color: white; text-align: center;">Adventure awaits! Explore breathtaking destinations, uncover hidden gems, and embrace the beauty <br>
+             of the world—one journey at a time. Stay inspired, keep wandering!</p>
+          
+     </div>
+    <br>
+     <div class="h-line"></div>
+     <br>
+<div class="container footerlist">
+
+<ul class="d-flex justify-content-between">
+  <li>About Us</li>
+  <li>Terms & Conditions</li>
+  <li>Privacy Policy</li>
+  <li>Contact Us</li>
+  <li>Advertising</li>
+  <li>Contributers</li>
+  <li>FAQ</li>
+</ul>
+
+</div>
+      
+      
+      <br>
+      <div class="copyright">
+          <p >Copyright © 2025 Around The Atlas.</p>
+          <p >All rights reserved. Use of this website indicates your compliance with our
+              Privacy Policy, Conditions of
+              Carriage, Terms and Conditions.
+
+          </p>
+          <br>
+          <div class="Social-icons" >
+            <span class="codex--linkedin"></span>
+                                <span style="width: 30px; height: 25px;" class="ph--youtube-logo-light"></span>
+                                <span class="mingcute--twitter-line"></span>
+                                <span class="bxl--instagram"></span>
+                                <br>
+                                <br>
+          </div>
+      </div> <br><br>
+  </div>
+</section>
+
+  
+  
+  
+  
+        
+     
+       
+
+
+
+
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js" integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./tokyo.js"></script>
+</body>
+</html>
