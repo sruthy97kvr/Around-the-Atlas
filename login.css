@@ -1,0 +1,40 @@
+*{
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;}
+#con{
+    margin-left: 475px;
+    
+}
+.cls1 button{
+      height: 60px;
+      width: 40%;
+      border-radius: 10px;
+}
+#fp{
+    margin-left: 20px;
+    margin-top:40px;
+}
+.mb-3 input{
+    height: 55px;
+    width: 65%;
+    border: 2px solid black;
+}
+.cls1{
+    margin-left: 200px;
+    margin-right: -500px;
+}
+nav{
+    height: 80px;
+}
+.container{
+    padding-top: 0px;
+}
+.foot{
+ 
+    height: 200px;
+    width: 100%;
+}
+.h1{
+    justify-content: center;
+}
