@@ -1,70 +1,192 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: "Nunito", sans-serif;
-   
-}
-.service ul li{
-  list-style-type: none;
-}
-.service ul li a{
-  text-decoration: none;
-  color: white;
-  
-}
+/* styles for 'destinations.html' */
+/* navbar styles */
 .navbar {
     background-color: rgba(255, 255, 255, 0.466) !important; 
     transition: background-color 0.3s ease-in-out; 
     z-index: 0;
 }
-.carousel {
-    position: fixed;
-    top: 0;
-    left: 0;
+
+/* banner portion styles */
+.banner {
+    min-height: 90vh;
     width: 100%;
-    height: 100vh;
-    z-index: -1;
-}
-.carousel-item video {
-    object-fit: cover;
-    width: 100%;
-    height: 100vh;
-}
-.carousel-caption h2{
-    font-family: "Kaushan Script", cursive;
-    font-size: 50px;
-    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px cyan;
-}
-.carousel-caption {
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: auto;
-    text-align: center;
-}
-.carousel-caption h2 {
-    font-size: 3rem;
-    font-weight: bold;
-}
-.carousel-caption h4 {
-    font-size: 1.5rem;
-    font-weight: 600;
+    background-image: url('https://cdn.pixabay.com/photo/2016/07/22/04/03/rio-de-janeiro-1534128_1280.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    transition: background-size 0.4s ease-in-out;
 }
 
-.carousel-item.active .carousel-caption {
-    opacity: 0; 
-    transform: translateY(50px); 
-    animation: fadeIn 1.5s ease-in-out forwards;
+.banner:hover {
+    background-size: 110% 110%;
 }
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+
+/* featured locations styles */
+.featured{
+    min-height: 75vh;
+    width: 100%;
+    background-color:#5f7a7b;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featureh1{
+    font-family: "Kaushan Script", cursive;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #31578a;
+    margin-bottom: 30px;
+}
+
+/* carousel and card styles */
+.caro-item {
+    transition: transform 0.6s ease-in-out;
+}
+
+.c {
+    width: 20rem;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.c:hover {
+    transform: scale(1.05);
+}
+
+.c img {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-body {
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #31578a;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.explorebtn {
+    background-color: #31578a;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.explorebtn:hover {
+    background-color: #1f3f63;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* destinations */
+.desh1 {
+    font-family: "Kaushan Script", cursive;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 500px;
+}
+
+h3 {
+    font-family: "Kaushan Script", cursive;
+}
+
+.desti {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.conti-img {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    transition: filter 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out;
+}
+
+.conti-img:hover {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+
+
+.des-name {
+    font-family: "Nunito", sans-serif;
+}
+
+.countries {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+
+.countries:hover {
+    color: orange;
+}
+
+.countries::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 5px;
+    background-color: grey;
+    transition: transform 0.25s ease-out;
+}
+
+.countries:hover::after {
+    transform: scaleX(1);
+}
+
+.description {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+    color: grey;
+}
+
+.conti:hover+.description {
+    opacity: 1;
+    max-height: 100px;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* styles for 'footer' */
+.service ul li{
+    list-style-type: none;
   }
+  .service ul li a{
+    text-decoration: none;
+    color: white;
+    
+  }
+
   .iconamoon--search-light {
     display: inline-block;
     width: 24px;

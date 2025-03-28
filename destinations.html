@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Destinations</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./destinations_style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Bree+Serif&family=Dancing+Script:wght@400..700&family=Kaushan+Script&family=Lexend+Giga:wght@100..900&family=Playwrite+IN:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Rock+Salt&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <section>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">
+                    <img src="./images/logo-nbg.png" alt="Logo" width="200">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Author</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Login</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#"><button class="btn"
+                                    style="margin-top: -6px;"><span class="iconamoon--search-light"></span></button>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <div class="banner">
+        <h1 class="desh1 ">Destinations</h1>
+    </div>
+
+    <div class="featured">
+        <h1 class="featureh1">Featured This Month</h1>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active caro-item" data-bs-interval="3000">
+                    <div class="d-flex justify-content-center">
+                        <div class="card c">
+                            <img src="https://media.istockphoto.com/id/517599616/photo/panorama-view-of-oeschinensee-on-bernese-oberla.jpg?s=612x612&w=0&k=20&c=PkX0ebgjcsBK4_dnDGClLGspqI4bUZqGB-qUyBnoyIo="
+                                class="card-img-top" alt="Switzerland">
+                            <div class="card-body">
+                                <h5 class="card-title">Switzerland</h5>
+                                <p class="card-text">The Swiss Alps: a majestic masterpiece, sculpted by the hands of
+                                    nature.</p>
+                                <a href="#" class="btn btn-primary explorebtn">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item caro-item" data-bs-interval="3000">
+                    <div class="d-flex justify-content-center">
+                        <div class="card c">
+                            <img src="https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dG9reW98ZW58MHx8MHx8fDA%3D"
+                                class="card-img-top" alt="Japan">
+                            <div class="card-body">
+                                <h5 class="card-title">Japan</h5>
+                                <p class="card-text">Tokyo is a city of endless discovery, a harmonious blend of past
+                                    and future.</p>
+                                <a href="#" class="btn btn-primary explorebtn">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item caro-item" data-bs-interval="3000">
+                    <div class="d-flex justify-content-center">
+                        <div class="card c">
+                            <img src="https://plus.unsplash.com/premium_photo-1661963145672-a2bd28eba0fb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2FudG9yaW5pJTIwc3Vuc2V0fGVufDB8fDB8fHww"
+                                class="card-img-top" alt="Greece">
+                            <div class="card-body">
+                                <h5 class="card-title">Greece</h5>
+                                <p class="card-text">Santorini: where the sun kisses the sea goodnight.</p>
+                                <a href="#" class="btn btn-primary explorebtn">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item caro-item" data-bs-interval="3000">
+                    <div class="d-flex justify-content-center">
+                        <div class="card c">
+                            <img src="https://adventures.com/media/208964/best-time-to-visit-norway-northern-lights-in-norway.jpg?anchor=center&mode=crop&width=970&height=645&rnd=132852494100000000&format=jpg&quality=80"
+                                class="card-img-top" alt="Norway">
+                            <div class="card-body">
+                                <h5 class="card-title">Norway</h5>
+                                <p class="card-text">Norway is high mountains and deep fjords.</p>
+                                <a href="#" class="btn btn-primary explorebtn">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- asia -->
+    <div class="desti container mt-5">
+        <div class="d-flex position-relative">
+            <img src="https://cdn.pixabay.com/photo/2020/12/28/22/48/buddha-5868759_1280.jpg" alt="" width="150px"
+                height="150px" class="conti-img rounded-5">
+            <div class="p-3">
+                <h3 class="conti">Asia</h3>
+                <p class="description">Asia is Earth's largest and most populous continent.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row m-5">
+            <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center mb-3">
+                <a href=""><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Flag_of_Afghanistan_%282013%E2%80%932021%29.svg/800px-Flag_of_Afghanistan_%282013%E2%80%932021%29.svg.png"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Afghanistan</h5>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center mb-3">
+                <a href=""><img src="https://cdn.britannica.com/67/6267-050-8A26DFEE/Flag-Bangladesh.jpg" alt=""
+                        width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Bangladesh</h5>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center mb-3">
+                <a href=""><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/255px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">China</h5>
+                </a>
+            </div>
+        </div>
+
+        <div class="row m-5">
+            <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center mb-3">
+                <a href=""><img
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">India</h5>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center mb-3">
+                <a href=""><img src="https://images5.alphacoders.com/687/687027.png" alt="" width="90px" height="40px"
+                        class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Japan</h5>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center mb-3">
+                <a href=""><img src="https://cdn.britannica.com/31/4031-050-A6FEE261/Flag-Malaysia.jpg" alt=""
+                        width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Malaysia</h5>
+                </a>
+            </div>
+        </div>
+
+        <div class="row m-5">
+            <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center mb-3">
+                <a href=""><img src="https://cdn.britannica.com/80/2280-050-322910B4/Flag-Maldives.jpg" alt=""
+                        width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Maldives</h5>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center mb-3">
+                <a href=""><img
+                        src="https://img.freepik.com/premium-photo/singapore-national-fabric-flag_113767-2313.jpg"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Singapore</h5>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center mb-3">
+                <a href=""><img src="https://cdn.britannica.com/41/4041-004-D051B135/Flag-Vietnam.jpg" alt=""
+                        width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Vietnam</h5>
+                </a>
+            </div>
+        </div>
+
+        <!-- africa -->
+        <div class="d-flex position-relative">
+            <img src="https://cdn.pixabay.com/photo/2024/11/21/19/04/elephant-9214527_1280.jpg" alt="" width="150px"
+                height="150px" class="conti-img rounded-5">
+            <div class="p-3">
+                <h3 class="text-dark p-3 conti">Africa</h3>
+                <p class="description">I dream of an Africa, which is in peace with itself — Nelson Mandela</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row m-5">
+            <div class="col d-flex">
+                <a href=""><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/255px-Flag_of_Angola.svg.png"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Angola</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/255px-Flag_of_Botswana.svg.png"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Botswana</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Cape_Verde.svg" alt=""
+                        width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Cape Verde</h5>
+                </a>
+            </div>
+        </div>
+
+        <div class="row m-5">
+            <div class="col d-flex">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_Djibouti.svg" alt=""
+                        width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Djibouti</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img
+                        src="https://www.egypttoursportal.com/images/2024/12/Egyptian-Flag-Egypt-Tours-Portal.jpg"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Egypt</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg" alt=""
+                        width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Nigeria</h5>
+                </a>
+            </div>
+        </div>
+
+        <!-- North America -->
+        <div class="d-flex position-relative">
+            <img src="https://www.connollycove.com/wp-content/uploads/2021/11/pexels-luke-anthony-9966091-scaled.jpg"
+                alt="" width="150px" height="150px" class="conti-img rounded-5">
+            <div class="p-3">
+                <h3 class="text-dark p-3 conti">North America</h3>
+                <p class="description">The steel of freedom does not stain." - Langston Hughes, "Let America Be America
+                    Again</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row m-5">
+            <div class="col d-flex">
+                <a href=""><img src="https://cdn.britannica.com/36/5436-050-B0DCE113/Flag-Alaska.jpg" alt=""
+                        width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Alaska</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img src="https://cdn.britannica.com/55/69555-050-672A2C54/Flag-Bermuda.jpg" alt=""
+                        width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Bermuda</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Canada</h5>
+                </a>
+            </div>
+        </div>
+
+        <div class="row m-5">
+            <div class="col d-flex">
+                <a href=""><img
+                        src="https://www.shutterstock.com/image-vector/flat-illustration-greenland-flag-national-260nw-2417587043.jpg"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Green land</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img
+                        src="https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">United States</h5>
+                </a>
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+
+        <!-- europe -->
+        <div class="d-flex position-relative">
+            <img src="https://www.zicasso.com/static/e9965f8ecdbab30f9f882eeb67363e08/304cc/e9965f8ecdbab30f9f882eeb67363e08.jpg"
+                alt="" width="150px" height="150px" class="conti-img rounded-5">
+            <div class="p-3">
+                <h3 class="text-dark p-3 conti">Europe</h3>
+                <p class="description">Peninsula of Peninsulas.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row m-5">
+            <div class="col d-flex">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg" alt=""
+                        width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Albania</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img src="https://cdn.britannica.com/73/6073-050-4D6FDAF6/Flag-Austria.jpg" alt=""
+                        width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Austria</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img src="https://cdn.britannica.com/08/6408-050-03D00EC3/Flag-Belgium.jpg" alt=""
+                        width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Belgium</h5>
+                </a>
+            </div>
+        </div>
+
+        <div class="row m-5">
+            <div class="col d-flex">
+                <a href=""><img
+                        src="https://cdn11.bigcommerce.com/s-2lbnjvmw4d/images/stencil/1280x1280/products/2854/5827/canaryislands1__17675.1738246311.jpg?c=2"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Canary island</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/640px-Flag_of_Denmark.svg.png"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Denmark</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/800px-Flag_of_Finland.svg.png"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Finland</h5>
+                </a>
+            </div>
+        </div>
+
+        <div class="row m-5">
+            <div class="col d-flex">
+                <a href=""><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Flag_of_France.png/1280px-Flag_of_France.png"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">France</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img src="https://cdn.britannica.com/97/897-050-0BFECDA5/Flag-Germany.jpg" alt=""
+                        width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Germany</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img src="https://cdn.britannica.com/49/1049-004-AE4BAD3E/Flag-Greece.jpg" alt=""
+                        width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Greece</h5>
+                </a>
+            </div>
+        </div>
+
+        <div class="row m-5">
+            <div class="col d-flex">
+                <a href=""><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/800px-Flag_of_Ireland.svg.png"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Ireland</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2560px-Flag_of_Italy.svg.png"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Italy</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/255px-Flag_of_the_Netherlands.svg.png"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Netherlands</h5>
+                </a>
+            </div>
+        </div>
+
+        <!-- polar -->
+        <div class="d-flex position-relative">
+            <img src="https://letstalkscience.ca/sites/default/files/2021-01/iceberg-at-sunset-greenland.jpg" alt=""
+                width="150px" height="150px" class="conti-img rounded-5">
+            <div class="p-3">
+                <h3 class="text-dark p-3 conti">Polar</h3>
+                <p class="description">Why, to the North Pole, of course!</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row m-5">
+            <div class="col d-flex">
+                <a href=""><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/True_South_Antarctic_Flag.svg/1200px-True_South_Antarctic_Flag.svg.png"
+                        alt="" width="90px" height="40px" class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Antartica</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img src="https://i.redd.it/yir0gms7daf61.png" alt="" width="90px" height="40px"
+                        class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Arctic</h5>
+                </a>
+            </div>
+            <div class="col d-flex">
+                <a href=""><img src="https://flagpedia.net/data/flags/w1600/sj.png" alt="" width="90px" height="40px"
+                        class=""></a>
+                <a href="" class="countries">
+                    <h5 class="des-name ms-2 mt-2">Svalbard</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <section class="footer">
+        <br><br><br>
+
+        <div class="container-fluid">
+            <div class="dark-logo">
+                <img src="./images/logo-dark.png" alt="">
+            </div>
+            <br>
+            <div class="container service">
+                <br><br>
+                <p style="font-size: large; color: white; text-align: center;">Adventure awaits! Explore breathtaking
+                    destinations, uncover hidden gems, and embrace the beauty <br>
+                    of the world—one journey at a time. Stay inspired, keep wandering!</p>
+
+            </div>
+            <br>
+            <div class="h-line"></div>
+            <br>
+            <div class="container footerlist">
+
+                <ul class="d-flex justify-content-between">
+                    <li>About Us</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Contact Us</li>
+                    <li>Advertising</li>
+                    <li>Contributers</li>
+                    <li>FAQ</li>
+                </ul>
+
+            </div>
+
+
+            <br>
+            <div class="copyright">
+                <p>Copyright © 2025 Around The Atlas.</p>
+                <p>All rights reserved. Use of this website indicates your compliance with our
+                    Privacy Policy, Conditions of
+                    Carriage, Terms and Conditions.
+
+                </p>
+                <br>
+                <div class="Social-icons">
+                    <span class="codex--linkedin"></span>
+                    <span style="width: 30px; height: 25px;" class="ph--youtube-logo-light"></span>
+                    <span class="mingcute--twitter-line"></span>
+                    <span class="bxl--instagram"></span>
+                    <br>
+                    <br>
+                </div>
+            </div> <br><br>
+        </div>
+    </section>
+
+</body>
+
+</html>

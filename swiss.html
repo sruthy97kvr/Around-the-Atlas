@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Pages</title>
+<link rel="stylesheet" href="./swiss.css">
+
+<!-- Font awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Dr+Sugiyama&family=Engagement&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quintessential&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap" rel="stylesheet">
+
+<!-- Bootstrap cdn -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</head>
+<body style="background-color: #1D3557;">
+    
+
+    <div class="container-fluid">
+     <!-- navSection -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-dark" href="Home.html">
+        <img src="./images/logo-nbg.png" alt="Logo" width="200" >
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-light" href="#">Destination</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#">Author</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#">Contact</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#">Login</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#"><button class="btn" style="margin-top: -6px;"><span
+                  class="iconamoon--search-dark"></span></button>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+
+       <div class="section">
+        <h2 class="discover" style="text-align: center; margin-top: 30px; ">Discover The Charm Of the Alps!</h2>
+        <!-- <img class="switzerland-text" src="./images/text.svg" alt="" height="250px"> -->
+
+          <img class="imgflag" src="./images/swissf-removebg-preview.png" alt="" height="100px" >
+                        
+                     <svg xmlns="http://www.w3.org/2000/svg"   style="height: 300px;" class="switzerland-path" viewBox="0 84.3499984741211 195.1999969482422 58.55000305175781" data-asc="1.009"><g fill="#7f9acc"><g fill="#7f9acc" transform="translate(0, 0)"><path d=""/></g><g fill="#7f9acc" transform="translate(0, 72.5)"><path d="M29.75 19.80Q29.40 19.80 29.18 19.57Q28.95 19.35 28.95 19.10Q28.95 18.85 29.20 18.40Q29.45 17.95 29.45 17.55Q29.45 16.40 28.28 15.87Q27.10 15.35 25.85 15.35Q22.15 15.35 18.13 17.85Q14.10 20.35 13.40 23.85Q13.65 25.95 15.48 27.77Q17.30 29.60 19.70 30.92Q22.10 32.25 24.45 33.60Q26.80 34.95 28.40 36.80Q30 38.65 30 40.57Q30 42.50 28.60 44.32Q27.20 46.15 25.83 47.40Q24.45 48.65 24.45 48.72Q24.45 48.80 24.60 48.80Q27.65 48.80 32.95 45.45L33.45 45.10Q33.80 44.90 33.98 44.90Q34.15 44.90 34.35 45.20Q34.55 45.50 34.55 45.85Q34.55 46.20 33.90 46.55Q31 49.30 23.08 51.80Q15.15 54.30 8.75 54.30Q0 54.30 0 49.20Q0 48.45 1.50 47.05Q3.80 44.95 4.30 44.95Q4.80 44.95 6.85 46.20Q8.90 47.45 12 48.70Q15.10 49.95 18.15 49.95Q21.20 49.95 22.83 48.05Q24.45 46.15 24.45 44.15Q24.45 42.15 22.75 40.55Q21.05 38.95 18.63 37.72Q16.20 36.50 13.75 35.20Q11.30 33.90 9.60 32.05Q7.90 30.20 7.90 28.00Q7.90 24.45 11.85 20.55Q15.80 16.65 20.90 14.25Q26 11.85 29.60 11.85Q34.10 11.85 34.10 14.85Q34.10 16.65 32.48 18.22Q30.85 19.80 29.75 19.80ZM45.35 42.35L45.20 43.75Q45.20 44.80 45.88 45.65Q46.55 46.50 47.77 46.50Q49 46.50 49.72 45.95Q50.45 45.40 50.45 44.80Q50.45 44.70 50.10 44.25Q48.90 42.95 48.90 41.20Q48.90 39.45 49.97 37.75Q51.05 36.05 52.10 36.05Q53.15 36.05 53.70 38.35Q53.90 39.20 54.52 39.92Q55.15 40.65 56.20 40.65Q56.30 40.65 56.75 40.42Q57.20 40.20 57.45 40.20Q57.90 40.20 57.90 40.95Q57.90 42.90 55.90 44.32Q53.90 45.75 52.25 45.75Q51.90 45.75 51.75 45.70Q50.90 47.40 49.60 49.05Q48.30 50.70 47.60 51.35Q45.90 52.90 44.35 52.90Q41.60 52.90 41.60 48.85Q41.50 48.60 41.30 48.60Q41.10 48.60 41 48.75Q38.50 52.10 35.48 52.10Q32.45 52.10 32.45 47.65Q32.45 44.90 33.67 41.75Q34.90 38.60 36.25 38.60Q36.85 38.60 36.85 39.50L36.65 41.45Q36.65 43.15 37.35 44.25Q38.45 45.95 39.77 45.95Q41.10 45.95 42 45.32Q42.90 44.70 43.25 43.95Q44.20 41.90 45.05 41.90Q45.35 41.95 45.35 42.35ZM57.02 34.90Q57.02 34.90 56.64 34.47Q56.25 34.05 56.25 32.80Q56.25 31.55 57.02 30.70Q57.80 29.85 58.95 29.85Q60.10 29.85 60.88 30.70Q61.65 31.55 61.65 32.80Q61.65 34.05 60.88 34.90Q60.10 35.75 58.95 35.75Q57.80 35.75 57.02 34.90M67.40 45.80Q67.90 45.40 68.30 45.40Q69 45.40 69 46.30Q69 47.55 65.90 50.02Q62.80 52.50 60.55 52.50Q58.30 52.50 57.05 50.90Q55.80 49.30 55.80 46.77Q55.80 44.25 56.65 41.90Q57.50 39.55 58.35 39.55Q58.75 39.60 58.75 40.77Q58.75 41.95 59.10 43.35Q59.45 44.75 60.63 46.02Q61.80 47.30 63.67 47.30Q65.55 47.30 67.40 45.80ZM58.90 35.10Q58.90 34.10 60.50 33.60Q62.95 32.55 68.50 30.35Q69.50 22.75 71.50 22.75Q72.80 22.75 72.80 26.90Q72.80 28.10 72.75 28.70Q80.35 25.80 82.95 25.15Q85.55 24.50 87.10 24.50Q89.45 24.50 89.45 26.20Q89.45 26.75 88.75 27.10Q85.65 28.65 84.90 28.65Q84.75 28.65 84.40 28.42Q84.05 28.20 83.60 28.20Q83.15 28.20 81.75 28.55Q78.90 29.30 72.40 31.45Q71.80 35.35 70.65 37.05Q70.85 42.75 72.15 44.75Q72.75 45.70 73.88 46.40Q75 47.10 76.65 47.10Q78.30 47.10 79.90 45.60Q80.20 45.30 80.40 45.30Q80.80 45.30 80.80 45.95Q80.80 48.05 78 50.17Q75.20 52.30 72.65 52.30Q67.60 52.30 67.60 44.10Q67.60 38.95 68.20 33Q64.05 34.60 62.08 35.60Q60.10 36.60 59.75 36.60Q59.40 36.60 59.15 36.10Q58.90 35.60 58.90 35.10ZM85.75 65.45Q86.90 65.45 87.53 63.05Q88.15 60.65 88.15 58.32Q88.15 56 87.35 53.75Q83.75 57.60 83.75 61.60Q83.75 63.30 84.38 64.38Q85.00 65.45 85.75 65.45M83.30 42.00L81.40 42.50Q80.85 42.50 80.85 42.05Q80.85 40.70 83.30 39.32Q85.75 37.95 87.08 37.95Q88.40 37.95 89.00 38.57Q89.60 39.20 89.60 40.15Q89.60 42.15 86.75 45.35Q86.65 45.45 86.65 45.60Q86.65 46.00 87.35 46.00Q89.50 46.50 90.65 49.20Q92.20 48.00 93.28 47.37Q94.35 46.75 94.50 46.75Q95.15 46.75 95.15 47.45Q95.10 47.65 94.08 48.32Q93.05 49.00 92.70 49.25L91.05 50.45Q91.35 51.50 91.35 52.87Q91.35 54.25 90.80 57.02Q90.25 59.80 89.25 62.90Q88.25 66 86.43 68.20Q84.60 70.40 82.45 70.40Q81.10 70.40 80.25 69.27Q79.40 68.15 79.40 66.70Q79.40 60.10 86.80 52.60Q85.45 49.95 83.25 49.95Q82.25 49.95 81.60 50.45Q80.95 50.95 80.58 50.95Q80.20 50.95 80.20 50.47Q80.20 50.00 80.40 49.80Q80.60 49.60 81.18 49.05Q81.75 48.50 82.10 48.12Q82.45 47.75 83.05 47.10Q83.65 46.45 83.95 45.95Q84.85 44.60 84.85 43.82Q84.85 43.05 84.43 42.52Q84.00 42.00 83.30 42.00ZM97.65 44.70Q98.50 44.40 99.38 42.77Q100.25 41.15 100.25 40.10Q100.25 39.05 99.45 39.00Q98.25 39.00 97.75 40.07Q97.25 41.15 97.25 42.42Q97.25 43.70 97.65 44.70M101.95 47.95Q103.35 47.95 104.28 47.32Q105.20 46.70 106.03 45.70Q106.85 44.70 107.33 44.70Q107.80 44.70 107.80 45.15Q107.80 45.45 107.60 45.85Q105.95 48.50 103.50 50.52Q101.05 52.55 98.30 52.55Q95.55 52.55 94.33 51.22Q93.10 49.90 93.10 47.70Q93.10 43.90 95.95 39.92Q98.80 35.95 101.85 35.95Q103.45 35.95 103.45 37.25Q103.45 39.00 102.35 40.87Q101.25 42.75 98.30 45.95Q99.65 47.95 101.95 47.95ZM108 43.90L106.65 44.00Q105.75 44.00 105.75 43.55Q105.75 42.85 107.53 40.87Q109.30 38.90 110.70 38.90Q111.30 38.90 111.78 39.25Q112.25 39.60 112.30 40.10L112.55 42.35Q112.70 42.55 112.85 42.55Q113 42.55 113.65 41.75Q115.75 39.30 117.40 39.30Q118.05 39.30 118.45 39.50Q118.85 39.70 119.38 40.27Q119.90 40.85 119.95 40.90Q120.30 40.75 120.65 40.75Q121.20 40.75 121.20 41.42Q121.20 42.10 119.25 43.92Q117.30 45.75 116.35 45.75Q115.40 45.75 114.75 44.90Q114.10 44.05 113.80 44.05Q112.65 44.05 112.65 45.25Q112.65 46.15 113.48 48.30Q114.30 50.45 114.30 50.85Q114.30 51.85 113.28 52.42Q112.25 53.00 111.03 53.00Q109.80 53.00 109.05 52.60Q108.30 52.20 108.30 51.50L109.70 45.45Q109.70 43.90 108 43.90ZM126.05 22.75Q124.65 22.75 123.92 26.00Q123.20 29.25 123.20 32.60Q123.20 35.95 123.90 39.20Q127.35 34.05 127.35 25.40Q127.35 24.15 126.98 23.45Q126.60 22.75 126.05 22.75M130.90 47.05Q131.70 47.05 133.20 46.45Q134.70 45.85 135.25 45.85Q135.80 45.85 135.80 46.35Q135.80 47.50 132.68 49.72Q129.55 51.95 127.65 51.95Q125.75 51.95 124.55 51.35Q123.35 50.75 122.63 49.57Q121.90 48.40 121.45 47.25Q121 46.10 120.85 44.45Q120.55 41.90 120.55 38.50Q120.55 35.10 121.45 30.35Q122.35 25.60 123.98 22.30Q125.60 19.00 127.40 18.90Q127.90 18.95 128.22 19.07Q128.55 19.20 128.88 19.92Q129.20 20.65 129.20 22.00Q129.20 34.30 124.35 40.90Q126.35 47.05 130.90 47.05ZM146.60 44.05L146.40 45.45Q146.40 46.35 147.18 47.32Q147.95 48.30 149 48.30Q149.80 48.30 150.30 47.95Q151.40 47.20 151.68 46.92Q151.95 46.65 152.57 46.65Q153.20 46.65 153.20 47.10Q153.20 47.60 150.85 50.25Q150.10 51.10 148.65 52.05Q147.20 53.00 146.07 53.00Q144.95 53.00 144.38 52.62Q143.80 52.25 143.55 51.45Q143.25 50.35 143.25 48.75Q143.25 48.55 143 48.55Q142.75 48.55 141.85 49.55Q139.05 52.45 137.32 52.45Q135.60 52.45 134.68 51.55Q133.75 50.65 133.75 49.25Q133.75 46.80 135.05 44.57Q136.35 42.35 138.15 41.00Q142.15 38.05 144.35 38.05Q147.65 38.15 147.65 40.40Q147.65 41.20 146.95 41.97Q146.25 42.75 145.65 42.75Q145.05 42.75 144 41.70Q142.95 40.65 141.70 40.65Q140.45 40.65 139.65 41.67Q138.85 42.70 138.85 44.30Q138.85 46.90 141.60 46.90Q142.70 46.90 143.43 46.35Q144.15 45.80 144.45 45.15Q145.30 43.45 146 43.45Q146.60 43.45 146.60 44.05ZM152.15 46.15Q152.15 45.35 153.70 43.52Q155.25 41.70 156.22 41.70Q157.20 41.70 157.68 42.45Q158.15 43.20 158.25 44.10Q158.35 45.00 158.83 45.75Q159.30 46.50 160.22 46.50Q161.15 46.50 161.88 45.67Q162.60 44.85 163.05 43.82Q163.50 42.80 164.25 41.97Q165 41.15 165.72 41.15Q166.45 41.15 166.75 41.75Q169.85 48.40 173.05 48.40Q173.55 48.40 173.95 48.25Q174.35 48.10 174.55 48.10Q175.15 48.10 175.15 49.05Q175.15 50.75 173.38 52.10Q171.60 53.45 169.75 53.45Q167.90 53.45 166.63 52.25Q165.35 51.05 164.88 49.77Q164.40 48.50 164.18 47.30Q163.95 46.10 163.70 46.10Q163.30 46.10 162.13 47.67Q160.95 49.25 159.47 50.85Q158 52.45 156.85 52.45Q155.65 52.30 154.95 51.27Q154.25 50.25 154.05 49.15Q153.60 46.15 152.15 46.15ZM185.25 31.50Q185.25 37.65 186.30 41.55Q187.55 38.35 188.38 34.38Q189.20 30.40 189.20 28.75Q189.20 23.45 187.85 23.45Q186.70 23.45 185.98 26.32Q185.25 29.20 185.25 31.50M192.65 47.90L194.55 47.40Q195.20 47.40 195.20 47.95Q195.20 48.40 194.35 49.32Q193.50 50.25 191.90 51.25Q190.30 52.25 188.80 52.25Q185.50 52.25 184.05 48.65Q181.15 52.20 177.45 52.20Q175.55 52.20 174.70 50.82Q173.85 49.45 173.85 47.40Q173.85 44.65 176.88 41.75Q179.90 38.85 181.65 38.85Q182.10 38.85 182.25 39.40Q182.25 39.80 180.95 40.65Q179.00 41.85 179.00 43.75Q179.00 45.85 180.15 46.45Q181.00 46.95 181.73 46.95Q182.45 46.95 183.30 46.25Q182.75 43.55 182.75 39.72Q182.75 35.90 183.38 31.62Q184.00 27.35 185.43 23.85Q186.85 20.35 188.65 20.35Q189.80 20.35 190.35 21.95Q190.90 23.55 190.90 25.90Q190.90 28.25 189.93 33.67Q188.95 39.10 187.00 43.60Q188.85 47.90 192.65 47.90Z"/></g></g></svg>
+                        
+                    
+                        
+
+
+    
+        
+   <div class="content">
+
+    <div class="paragraph"><span style="color: goldenrod;">Switzerland</span>, a land of breathtaking alpine scenery and pristine lakes, offers a perfect blend of natural beauty and modern charm. From the snow-capped peaks of the <span style="color: #85ace3;">Swiss Alps</span>  to the picturesque cities of <span style="color: goldenrod;">Zurich </span>,<span style="color: goldenrod;">Geneva</span>, and <span style="color: goldenrod;">Lucerne</span>, every corner of the country is a traveler’s delight. Experience world-class skiing in <span style="color:  #85ace3;;">Zermatt</span> , take a scenic train ride on the <span style="color: #85ace3;">Glacier Express</span> , or explore the charming villages with their iconic chalets!</div>
+<!--  Known for its delicious Swiss chocolate and premium watches, Switzerland is also home to a rich cultural heritage and a reputation for excellence. Whether you seek adventure, relaxation, or luxury, Switzerland promises an unforgettable experience. -->
+   </div><br><br>
+</div>
+<div class="general-info-container">
+    <h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+text-underline-offset: 15px; text-decoration-thickness: 1px; color: goldenrod;">General Information</h1>
+<div class="grid">
+    
+ <div class="box1"><i class="fa-solid fa-globe" style="color: #a6dcee;"></i> &nbsp;<br><p style="font-size: 30px; color: white;">Continent</p>
+      <p>Europe</p></div>
+<div class="box1"><i class="fa-solid fa-city" style="color: #a6dcee;"></i>&nbsp;<br><p style="font-size: 30px; color: white;">Capital</p>
+       <p>Bern</p></div>
+<div class="box1"><i class="fa-solid fa-language" style="color: #a6dcee;"></i>&nbsp; <br><p style="font-size: 30px;color: white;">Language</p>
+         <p>German, French, Italian, and Romansh </p></div>
+<div class="box1"><i class="fa-solid fa-person" style="color: #a6dcee;"></i>&nbsp;<br><p style="font-size: 30px;color: white;"> Population</p>
+      <p> 8.8 million</p></div>
+<div class="box1"><i class="fa-solid fa-passport" style="color: #a6dcee;"></i>&nbsp; <br><p style="font-size: 30px;color: white;">Visa</p>   
+           <p> Schengen Visa required for non-EU travelers</p></div>
+<div class="box1"><i class="fa-solid fa-clock" style="color: #a6dcee;" ></i>&nbsp;<br> <p style="font-size: 30px;color: white;">TimeZone</p>
+         <p>Central European Time (CET, UTC+1) </p>
+       </div>
+<div class="box1"><i class="fa-solid fa-wallet" style="color: #a6dcee;"></i>&nbsp;<br> <p style="font-size: 30px;color: white;">Currency</p>
+          <p>Swiss Franc (CHF)</p></div>
+<div class="box1"><i class="fa-solid fa-face-smile" style="color: #a6dcee;"></i>&nbsp;<br> <p style="font-size: 30px;color: white;">Famous for</p>
+ <p>Swiss Alps, chocolates, watches and neutrality</p>           
+</div>
+<div class="box1"><i class="fa-solid fa-plane-departure" style="color: #a6dcee;"></i>&nbsp;<br> <p style="font-size: 30px;color: white;">Travel Means</p>
+    <p>By Air, Rail and Roadways</p>           
+   </div>
+   <div class="box1"><i class="fa-solid fa-cloud-sun" style="color: #a6dcee;"></i>&nbsp;<br> <p style="font-size: 30px;color: white;">Months to visit</p>
+    <p> June to September & December to February.</p>           
+   </div>
+
+</div>
+
+
+</div> <br><br>
+<div class="flex">
+
+    <div class="contents">
+        <h1 style="color: goldenrod;text-decoration: underline; line-height: 2; text-underline-offset: 15px; text-decoration-thickness: 1px; ">About</h1> <br>
+        <p class="p1"><span style="color: goldenrod;">Switzerland</span> is a beautiful and prosperous country located in Central Europe. It shares borders with Germany, France, Italy, Austria, and Liechtenstein, making it a unique blend of different cultures and languages. The country has four official languages: <span style="color: #a6dcee;">German, French, Italian, and Romansh,</span> reflecting its diverse heritage. Despite its small size, Switzerland is known for its stunning landscapes, rich history, and strong economy.</p>
+
+          <p class="p2">  One of Switzerland's biggest attractions is its breathtaking natural beauty. <span style="color: #a6dcee;">The Swiss Alps</span>  dominate much of the country, offering world-famous skiing and hiking destinations. Iconic peaks like the <span style="color: goldenrod;">Matterhorn </span> and <span style="color: goldenrod;">Jungfrau </span> attract thousands of tourists every year. Apart from mountains, Switzerland is home to serene lakes such as <span style="color: #a6dcee;">Lake Geneva </span> ,<span style="color: #a6dcee">Lake Zurich </span> , and <span style="color: #a6dcee;">Lake Lucerne </span>  , which add to its picturesque scenery.</p>
+          <p class="p3">Swiss cuisine is also widely celebrated. The country is famous for its world-class chocolate brands like <span style="color: goldenrod;">Toblerone</span>  and  <span style="color: goldenrod;">Lindt</span> . It is also known for its high-quality cheeses, including   <span style="color: goldenrod;">Gruyère</span> and  <span style="color: goldenrod;">Emmental</span> , which are often used in traditional dishes like cheese fondue and raclette.</p>
+    </div>
+  <div class="gallery">
+    <div class="gallery-container">
+        <img src="images/swiz1.jpg" class="gallery-item">
+        <img src="images/swiz2.jpg" class="gallery-item">
+        <img src="images/swiz3.jpeg" class="gallery-item">
+        <img src="images/swiz4.jpg" class="gallery-item">
+    </div>
+    </div> 
+
+
+</div> <br><br><br> <br><br>
+
+<h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+text-underline-offset: 15px; text-decoration-thickness: 1px; color: goldenrod;">Popular destinations</h1>
+
+<div class="cards">
+ <div class="items ms-4">
+
+
+     <div class="c1">
+    <div class="card" style="width: 18rem; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); ">
+        <img src="./images/geneva.webp" class="card-img-top" alt="...">
+        <div class="card-body" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+            <h2>Geneva</h2>
+          <p class="card-text" style="text-align: start;">Best for International Vibes.
+          Home to the United Nations Headquarters & Red Cross Museum.
+           Visit the beautiful Parc des Bastions & Old Town.
+          
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="c1">
+      <div class="card" style="width: 18rem; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+        <img src="./images/jung-swiss.jpg" class="card-img-top" alt="..." style="height: 210px;">
+        <div class="card-body" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+           <h2>Jungfraujoch</h2>
+          <p class="card-text"style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">Top of Europe - Best for Snow & Glaciers. Europe’s highest railway station.
+        Visit the Ice Palace & enjoy snow year-round.
+        Amazing views of the Aletsch Glacier.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="c1">
+      <div class="card" style="width: 18rem;  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+        <img src="./images/the-matterhorn-zermatt-switzerland-sunset.jpg" class="card-img-top" style="height: 210px;" alt="...">
+        <div class="card-body" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+            <h2> Zermatt</h2>
+          <p class="card-text"  style= "text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">Best for Skiing & Scenic Views
+            Home to the iconic Matterhorn Mountain.Gornergrat Railway offers panoramic views.
+            Skiing in winter, hiking in summer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="c1">
+      <div class="card" style="width: 18rem;box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+        <img src="./images/zurich.jpg" class="card-img-top" alt="..." style="height: 210px;">
+        <div class="card-body" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+            <h2> Zurich </h2>
+          <p class="card-text">Best for Culture & Shopping. Switzerland’s largest city, known for luxury shopping & nightlife.
+            Has one of the world’s most expensive shopping streets.</p>
+        </div>
+      </div>
+    </div>
+
+
+ </div>
+
+
+</div> <br><br><br><br>
+
+<h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+text-underline-offset: 15px; text-decoration-thickness: 1px; color: goldenrod;">Major Celebrations & Cultural Festivities</h1>
+ <div class="flex1">
+
+  <div class="baselcontent">
+    <p class="headerFestival">1. Basel Fasnacht (Carnival of Basel)</p> 
+    <p class="baselpara">📅 February/March (depends on Ash Wednesday) <br>
+      🎭 Switzerland’s Biggest Carnival <br>
+      
+      Basel Fasnacht is a spectacular three-day carnival known for its rich traditions, artistic performances, and vibrant atmosphere. Unlike many European carnivals, it starts on the Monday after Ash Wednesday at exactly 4:00 AM with the magical "Morgestraich"—when all city lights go out, and thousands of masked participants march with illuminated lanterns, creating an enchanting scene.Basel Fasnacht is deeply rooted in Swiss culture, often reflecting political and social issues through art and music. It’s not just a festival—it's an expression of Basel’s identity and history.</p>
+
+  </div>
+
+  <div class="baselphoto">
+    <img src="./images/basel.jpg" alt="" height="450px" width="450" style="border-radius: 50%;">
+  </div>
+
+ </div>  <br><br><br>
+
+ <div class="flex2" style="margin-top: 50px;">
+  
+<div class="swissphoto">
+  <img src="./images/swissnationalday.jpg" alt="" height="450px" width="450" style="border-radius: 50%;">
+
+</div>
+<div class="swisscontent">
+  <p class="headerFestival">2. Swiss National Day </p> 
+  <p class="swisspara">📅 August 1 <br>
+    🎆 Switzerland’s Biggest National Celebration <br>
+    
+    Swiss National Day, celebrated annually on August 1st, marks the founding of the Swiss Confederation in 1291 when three cantons (Uri, Schwyz, and Unterwalden) pledged mutual defense. It is a day of patriotic pride, fireworks, and cultural festivities throughout Switzerland.Swiss National Day is not just a celebration but a symbol of Swiss unity and independence! </p>
+
+</div>
+
+ </div> <br><br> <br> <br>
+
+ <div class="flex1" style="margin-top: 50px;">
+
+  <div class="baselcontent">
+    <p class="headerFestival">3. Fête de Genève (Geneva Festival)</p> 
+    <p class="baselpara">📅 August <br>
+      🎆 Geneva’s Biggest Summer Festival <br>
+      
+      
+      The Fête de Genève is a spectacular summer festival held annually in Geneva, Switzerland. Known for its grand fireworks, live music, street performances, and lakeside attractions, it attracts visitors from all over the world.This festival captures the vibrant spirit of Geneva, making it one of the must-visit events in Switzerland! </p>
+
+  </div>
+
+  <div class="baselphoto">
+    <img src="./images/montageswiss.jpg" alt="" height="450px" width="450" style="border-radius: 50%;">
+  </div>
+
+ </div>  <br><br><br>
+
+
+ <h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+text-underline-offset: 15px; text-decoration-thickness: 1px; color: goldenrod;">Important Landmarks</h1> <br><br>
+ <div class="landmarks">
+  
+   <div class="landmarkimages"> 
+    <div class="i1"><img src="./images/matter1.avif" alt="" height="350px" width="350px" >
+      <div class="overlay">Matterhorn,Zermatt</div>
+    </div>
+    <div class="i1"><img src="./images/c.jpg" alt="" height="350px" width="350px" ><div class="overlay">Château de Chillon (Chillon Castle) <br> Geneva</div></div>
+    <div class="i1"><img src="./images/glacier'.jpg" alt="" height="350px" width="350px" ><div class="overlay">Aletsch Glacier <br>Swiss Alps</div></div>
+    <div class="i1"><img src="./images/clock.jpg" alt="" height="350px" width="350px" ><div class="overlay">Zytglogge (Clock Tower) <br> Bern</div></div>
+
+   </div>
+
+
+ </div> <br><br>
+  
+ <h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+ text-underline-offset: 15px; text-decoration-thickness: 1px; color: goldenrod;">Popular Food and Cuisines</h1> <br>
+ 
+ <div class="food" style="margin-top: 50px;">
+
+  <div class="foodcontent1">
+    <p class="headerFestival">1. Rösti</p> 
+    <p class="food1para">Swiss-style hash browns made from grated potatoes, fried until crispy. <br>
+
+      Originally a farmer’s breakfast, now a national dish. <br>
+      
+      Served with cheese, bacon, or eggs.</p>
+
+  </div>
+
+
+  <div class="food1photo">
+    <img src="./images/rosti.jpg" alt="" height="350px" width="450px" style="border-radius: 20px;">
+  </div>
+</div> 
+
+  <div class="food2" style="margin-top: 50px;">
+  
+    <div class="food2photo">
+      <img src="./images/swissfood.webp" alt="" height="350px" width="450px" style="border-radius: 20px;">
+    
+    </div>
+    <div class="food2content">
+      <p class="headerFestival">2. Zürcher Geschnetzeltes  </p> 
+      <p class="food1para">
+        Sliced veal cooked in a creamy white wine and mushroom sauce. <br>
+
+Typically served with Rösti on the side.
+
+
+         </p>
+    
+    </div>
+    
+     </div> 
+
+
+     <div class="food" style="margin-top: 50px;">
+
+      <div class="foodcontent1">
+        <p class="headerFestival">3.  Nusstorte (Swiss Nut Tart) </p> 
+        <p class="food1para">A sweet caramelized walnut pie from the Engadine region. <br>
+
+          Has a rich, buttery crust and is a popular Swiss dessert.</p>
+    
+      </div>
+    
+    
+      <div class="food1photo">
+        <img src="./images/pietart.jpg" alt="" height="350px" width="450px" style="border-radius: 20px;">
+      </div>
+    </div>  <br><br> <br>
+
+
+    <div class="griding">
+      <div class="iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1398238.082124419!2d6.904998670039969!3d46.80560924548641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c64ef6f596d61%3A0x5c56b5110fcb7b15!2sSwitzerland!5e0!3m2!1sen!2sin!4v1742925606858!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="climate">
+        <h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+ text-underline-offset: 15px; text-decoration-thickness: 1px; color: goldenrod;">Best Time to Visit for Different Activities</h1> <br>
+<p>
+   
+ <span style="color: #a6dcee;">Hiking & Nature</span>  – June to September <br>
+ <span style="color: #a6dcee;"> Skiing & Snow Activities</span> – December to February  <br>
+ <span style="color: #a6dcee;"> Cultural Festivals</span> – Spring & Summer (April – August) <br>
+ <span style="color: #a6dcee;">Budget Travel & Fewer Crowds</span> – March to May / September to November 
+</p>
+      </div>
+    </div>
+
+<br><br>
+
+    
+<!-- foroter -->
+<section class="footer">
+  <br><br><br>
+
+  <div class="container-fluid">
+     <div class="dark-logo">
+      <img src="./images/logo-dark.png" alt="">
+     </div>
+     <br>
+     <div class="container service">
+       <br><br>
+          <p style="font-size: large; color: white; text-align: center;">Adventure awaits! Explore breathtaking destinations, uncover hidden gems, and embrace the beauty <br>
+             of the world—one journey at a time. Stay inspired, keep wandering!</p>
+          
+     </div>
+    <br>
+     <div class="h-line"></div>
+     <br>
+<div class="container footerlist">
+
+<ul class="d-flex justify-content-between">
+  <li>About Us</li>
+  <li>Terms & Conditions</li>
+  <li>Privacy Policy</li>
+  <li>Contact Us</li>
+  <li>Advertising</li>
+  <li>Contributers</li>
+  <li>FAQ</li>
+</ul>
+
+</div>
+      
+      
+      <br>
+      <div class="copyright">
+          <p >Copyright © 2025 Around The Atlas.</p>
+          <p >All rights reserved. Use of this website indicates your compliance with our
+              Privacy Policy, Conditions of
+              Carriage, Terms and Conditions.
+
+          </p>
+          <br>
+          <div class="Social-icons" >
+            <span class="codex--linkedin"></span>
+                                <span style="width: 30px; height: 25px;" class="ph--youtube-logo-light"></span>
+                                <span class="mingcute--twitter-line"></span>
+                                <span class="bxl--instagram"></span>
+                                <br>
+                                <br>
+          </div>
+      </div> <br><br>
+  </div>
+</section>
+
+
+
+
+
+    </div>
+    
+
+
+
+    
+
+<!-- GSAP cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js" integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./swiss.js"></script>
+</body>
+</html>
