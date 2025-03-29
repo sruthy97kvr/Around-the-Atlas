@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santorini</title>
+
+       <!-- Font awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Dr+Sugiyama&family=Engagement&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quintessential&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap" rel="stylesheet">
+
+<!-- Bootstrap cdn -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="./greece.css">
+
+</head>
+<body style="background-color: #bf92d8 ;">
+
+    <div class="container-fluid">
+        <!--nav bar  -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand text-dark" href="Home.html">
+                <img src="./pictures/logo-nbg.png" alt="Logo" width="200" >
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto " style="margin-right: -70px;">
+                  <li class="nav-item"><a class="nav-link text-light" href="#">Destination</a></li>
+                  <li class="nav-item"><a class="nav-link text-light" href="#">Author</a></li>
+                  <li class="nav-item"><a class="nav-link text-light" href="#">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link text-light" href="#">Login</a></li>
+                  <li class="nav-item"><a class="nav-link text-light" href="#"><button class="btn" style="margin-top: -6px;"><span
+                          class="iconamoon--search-dark"></span></button>
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>  
+
+        <div class="section">
+
+            <h2 class="discover" style="text-align: center; ">Step Into the Sunlit Paradise of Santorini!</h2> <br>
+            <img class="imgflag" src="./greecepics/greekflag.png" alt="" height="80px" >
+            <!-- <img  class="img1" src="./greecepics/alpha.png" alt="" height="80px"> -->
+           
+
+     
+           <svg xmlns="http://www.w3.org/2000/svg" class="japan-path" style="height: 200px;" viewBox="0 8.899999618530273 275.6499938964844 52.099998474121094" data-asc="1.009"><g fill="#766076"><g fill="#766076" transform="translate(0, 0)"><path d="M29.75 19.80Q29.40 19.80 29.18 19.57Q28.95 19.35 28.95 19.10Q28.95 18.85 29.20 18.40Q29.45 17.95 29.45 17.55Q29.45 16.40 28.28 15.87Q27.10 15.35 25.85 15.35Q22.15 15.35 18.13 17.85Q14.10 20.35 13.40 23.85Q13.65 25.95 15.48 27.77Q17.30 29.60 19.70 30.92Q22.10 32.25 24.45 33.60Q26.80 34.95 28.40 36.80Q30 38.65 30 40.57Q30 42.50 28.60 44.32Q27.20 46.15 25.83 47.40Q24.45 48.65 24.45 48.72Q24.45 48.80 24.60 48.80Q27.65 48.80 32.95 45.45L33.45 45.10Q33.80 44.90 33.98 44.90Q34.15 44.90 34.35 45.20Q34.55 45.50 34.55 45.85Q34.55 46.20 33.90 46.55Q31 49.30 23.08 51.80Q15.15 54.30 8.75 54.30Q0 54.30 0 49.20Q0 48.45 1.50 47.05Q3.80 44.95 4.30 44.95Q4.80 44.95 6.85 46.20Q8.90 47.45 12 48.70Q15.10 49.95 18.15 49.95Q21.20 49.95 22.83 48.05Q24.45 46.15 24.45 44.15Q24.45 42.15 22.75 40.55Q21.05 38.95 18.63 37.72Q16.20 36.50 13.75 35.20Q11.30 33.90 9.60 32.05Q7.90 30.20 7.90 28.00Q7.90 24.45 11.85 20.55Q15.80 16.65 20.90 14.25Q26 11.85 29.60 11.85Q34.10 11.85 34.10 14.85Q34.10 16.65 32.48 18.22Q30.85 19.80 29.75 19.80ZM45.25 44.05L45.05 45.45Q45.05 46.35 45.83 47.32Q46.60 48.30 47.65 48.30Q48.45 48.30 48.95 47.95Q50.05 47.20 50.33 46.92Q50.60 46.65 51.22 46.65Q51.85 46.65 51.85 47.10Q51.85 47.60 49.50 50.25Q48.75 51.10 47.30 52.05Q45.85 53.00 44.73 53.00Q43.60 53.00 43.02 52.62Q42.45 52.25 42.20 51.45Q41.90 50.35 41.90 48.75Q41.90 48.55 41.65 48.55Q41.40 48.55 40.50 49.55Q37.70 52.45 35.98 52.45Q34.25 52.45 33.32 51.55Q32.40 50.65 32.40 49.25Q32.40 46.80 33.70 44.57Q35 42.35 36.80 41.00Q40.80 38.05 43 38.05Q46.30 38.15 46.30 40.40Q46.30 41.20 45.60 41.97Q44.90 42.75 44.30 42.75Q43.70 42.75 42.65 41.70Q41.60 40.65 40.35 40.65Q39.10 40.65 38.30 41.67Q37.50 42.70 37.50 44.30Q37.50 46.90 40.25 46.90Q41.35 46.90 42.08 46.35Q42.80 45.80 43.10 45.15Q43.95 43.45 44.65 43.45Q45.25 43.45 45.25 44.05ZM50.80 46.15Q50.80 45.35 52.35 43.52Q53.90 41.70 54.88 41.70Q55.85 41.70 56.32 42.45Q56.80 43.20 56.90 44.10Q57 45.00 57.47 45.75Q57.95 46.50 58.88 46.50Q59.80 46.50 60.52 45.67Q61.25 44.85 61.70 43.82Q62.15 42.80 62.90 41.97Q63.65 41.15 64.38 41.15Q65.10 41.15 65.40 41.75Q68.50 48.40 71.70 48.40Q72.20 48.40 72.60 48.25Q73 48.10 73.20 48.10Q73.80 48.10 73.80 49.05Q73.80 50.75 72.03 52.10Q70.25 53.45 68.40 53.45Q66.55 53.45 65.28 52.25Q64 51.05 63.52 49.77Q63.05 48.50 62.82 47.30Q62.60 46.10 62.35 46.10Q61.95 46.10 60.77 47.67Q59.60 49.25 58.13 50.85Q56.65 52.45 55.50 52.45Q54.30 52.30 53.60 51.27Q52.90 50.25 52.70 49.15Q52.25 46.15 50.80 46.15ZM63.95 35.10Q63.95 34.10 65.55 33.60Q68 32.55 73.55 30.35Q74.55 22.75 76.55 22.75Q77.85 22.75 77.85 26.90Q77.85 28.10 77.80 28.70Q85.40 25.80 88 25.15Q90.60 24.50 92.15 24.50Q94.50 24.50 94.50 26.20Q94.50 26.75 93.80 27.10Q90.70 28.65 89.95 28.65Q89.80 28.65 89.45 28.42Q89.10 28.20 88.65 28.20Q88.20 28.20 86.80 28.55Q83.95 29.30 77.45 31.45Q76.85 35.35 75.70 37.05Q75.90 42.75 77.20 44.75Q77.80 45.70 78.92 46.40Q80.05 47.10 81.70 47.10Q83.35 47.10 84.95 45.60Q85.25 45.30 85.45 45.30Q85.85 45.30 85.85 45.95Q85.85 48.05 83.05 50.17Q80.25 52.30 77.70 52.30Q72.65 52.30 72.65 44.10Q72.65 38.95 73.25 33Q69.10 34.60 67.13 35.60Q65.15 36.60 64.80 36.60Q64.45 36.60 64.20 36.10Q63.95 35.60 63.95 35.10ZM95.55 45.20Q93.20 45.20 91.85 44.00Q90.50 42.80 90.30 40.95Q89.50 41.55 89.50 43.17Q89.50 44.80 90.43 46.02Q91.35 47.25 92.73 47.25Q94.10 47.25 94.83 46.55Q95.55 45.85 95.55 45.20M97.50 41.85Q97.65 42.30 97.88 42.30Q98.10 42.30 98.65 42.02Q99.20 41.75 99.60 41.75Q100 41.75 100 42.25Q100 42.75 98.93 43.90Q97.85 45.05 97.10 45.05Q96.05 47.90 93.63 50.32Q91.20 52.75 88.65 52.75Q86.85 52.75 85.65 51.57Q84.45 50.40 84.45 48.12Q84.45 45.85 86.35 43.17Q88.25 40.50 90.25 40.50L90.25 40.30Q90.25 39.20 91 38.52Q91.75 37.85 92.85 37.85Q96.25 37.85 97.50 41.85ZM98.95 43.90L97.60 44.00Q96.70 44.00 96.70 43.55Q96.70 42.85 98.48 40.87Q100.25 38.90 101.65 38.90Q102.25 38.90 102.73 39.25Q103.20 39.60 103.25 40.10L103.50 42.35Q103.65 42.55 103.80 42.55Q103.95 42.55 104.60 41.75Q106.70 39.30 108.35 39.30Q109 39.30 109.40 39.50Q109.80 39.70 110.33 40.27Q110.85 40.85 110.90 40.90Q111.25 40.75 111.60 40.75Q112.15 40.75 112.15 41.42Q112.15 42.10 110.20 43.92Q108.25 45.75 107.30 45.75Q106.35 45.75 105.70 44.90Q105.05 44.05 104.75 44.05Q103.60 44.05 103.60 45.25Q103.60 46.15 104.43 48.30Q105.25 50.45 105.25 50.85Q105.25 51.85 104.23 52.42Q103.20 53.00 101.98 53.00Q100.75 53.00 100 52.60Q99.25 52.20 99.25 51.50L100.65 45.45Q100.65 43.90 98.95 43.90ZM113.13 34.90Q113.13 34.90 112.74 34.47Q112.35 34.05 112.35 32.80Q112.35 31.55 113.13 30.70Q113.90 29.85 115.05 29.85Q116.20 29.85 116.98 30.70Q117.75 31.55 117.75 32.80Q117.75 34.05 116.98 34.90Q116.20 35.75 115.05 35.75Q113.90 35.75 113.13 34.90M123.50 45.80Q124.00 45.40 124.40 45.40Q125.10 45.40 125.10 46.30Q125.10 47.55 122.00 50.02Q118.90 52.50 116.65 52.50Q114.40 52.50 113.15 50.90Q111.90 49.30 111.90 46.77Q111.90 44.25 112.75 41.90Q113.60 39.55 114.45 39.55Q114.85 39.60 114.85 40.77Q114.85 41.95 115.20 43.35Q115.55 44.75 116.73 46.02Q117.90 47.30 119.78 47.30Q121.65 47.30 123.50 45.80ZM124.05 46.15Q124.05 45.35 125.60 43.52Q127.15 41.70 128.13 41.70Q129.10 41.70 129.58 42.45Q130.05 43.20 130.15 44.10Q130.25 45.00 130.73 45.75Q131.20 46.50 132.13 46.50Q133.05 46.50 133.78 45.67Q134.50 44.85 134.95 43.82Q135.40 42.80 136.15 41.97Q136.90 41.15 137.63 41.15Q138.35 41.15 138.65 41.75Q141.75 48.40 144.95 48.40Q145.45 48.40 145.85 48.25Q146.25 48.10 146.45 48.10Q147.05 48.10 147.05 49.05Q147.05 50.75 145.28 52.10Q143.50 53.45 141.65 53.45Q139.80 53.45 138.53 52.25Q137.25 51.05 136.78 49.77Q136.30 48.50 136.08 47.30Q135.85 46.10 135.60 46.10Q135.20 46.10 134.03 47.67Q132.85 49.25 131.38 50.85Q129.90 52.45 128.75 52.45Q127.55 52.30 126.85 51.27Q126.15 50.25 125.95 49.15Q125.50 46.15 124.05 46.15ZM147.03 34.90Q147.03 34.90 146.64 34.47Q146.25 34.05 146.25 32.80Q146.25 31.55 147.03 30.70Q147.80 29.85 148.95 29.85Q150.10 29.85 150.88 30.70Q151.65 31.55 151.65 32.80Q151.65 34.05 150.88 34.90Q150.10 35.75 148.95 35.75Q147.80 35.75 147.03 34.90M157.40 45.80Q157.90 45.40 158.30 45.40Q159 45.40 159 46.30Q159 47.55 155.90 50.02Q152.80 52.50 150.55 52.50Q148.30 52.50 147.05 50.90Q145.80 49.30 145.80 46.77Q145.80 44.25 146.65 41.90Q147.50 39.55 148.35 39.55Q148.75 39.60 148.75 40.77Q148.75 41.95 149.10 43.35Q149.45 44.75 150.63 46.02Q151.80 47.30 153.68 47.30Q155.55 47.30 157.40 45.80ZM165.35 48.05Q165.35 52.85 162.30 56.35Q162 56.70 161.72 56.70Q161.45 56.70 161.25 56.25Q161.25 56.10 162 54.85Q162.75 53.60 162.75 52.57Q162.75 51.55 162.27 51.20Q161.80 50.85 161.20 50.80Q160.60 50.75 160.13 50.27Q159.65 49.80 159.65 48.67Q159.65 47.55 160.52 46.55Q161.40 45.55 163.05 45.55Q165.10 45.55 165.35 48.05ZM189.00 29.60Q189.00 28.05 190.42 25.35Q191.85 22.65 193.50 22.65Q194.45 22.65 194.45 23.40Q194.45 23.65 193.75 24.67Q193.05 25.70 193.05 26.20Q193.05 28.70 196.15 28.70Q197.95 28.70 200.27 27.05Q202.60 25.40 204.45 23.15Q206.30 20.90 207.60 18.60Q208.90 16.30 208.90 15.02Q208.90 13.75 208.02 13.02Q207.15 12.30 205.65 12.30Q202.80 12.30 199.35 14.40Q195.90 16.50 193.00 19.70Q190.10 22.90 188.12 27.10Q186.15 31.30 186.15 35.40Q186.15 39.50 188.72 42.27Q191.30 45.05 195.15 45.05Q197.25 45.05 199.47 44.00Q201.70 42.95 203.50 41.35Q206.15 38.85 207.55 37.10Q207.90 36.55 208.17 36.55Q208.45 36.55 208.65 36.77Q208.85 37.00 208.85 37.32Q208.85 37.65 208.47 38.97Q208.10 40.30 207.27 44.77Q206.45 49.25 206.45 51.27Q206.45 53.30 206.70 54.55Q207.05 56.55 207.40 56.90Q207.45 56.95 207.70 57.05Q208.25 57.30 208.25 57.70Q208.25 58.80 207.38 59.90Q206.50 61 205.80 61Q205.10 61 204.75 60.85Q204.40 60.70 204.17 60.35Q203.95 60 203.80 59.65Q203.65 59.30 203.57 58.72Q203.50 58.15 203.47 57.75Q203.45 57.35 203.42 56.65Q203.40 55.95 203.38 55.02Q203.35 54.10 203.60 52.17Q203.85 50.25 204.22 48.57Q204.60 46.90 204.95 45.47Q205.30 44.05 205.55 43.12Q205.80 42.20 205.80 42.07Q205.80 41.95 205.57 41.95Q205.35 41.95 203.65 43.40Q201.95 44.85 199.82 46.60Q197.70 48.35 194.47 49.80Q191.25 51.25 187.85 51.25Q184.45 51.25 182.40 48.55Q180.35 45.85 180.35 41.50Q180.35 37.15 182.42 32.07Q184.50 27.00 187.80 22.95Q191.10 18.90 195.05 15.67Q199.00 12.45 202.97 10.67Q206.95 8.90 209.97 8.90Q213 8.90 213.30 11.95Q213.30 15.30 209.42 20.32Q205.55 25.35 200.47 29.07Q195.40 32.80 192.20 32.80Q189.00 32.80 189.00 29.60ZM210.30 43.90L208.95 44.00Q208.05 44.00 208.05 43.55Q208.05 42.85 209.82 40.87Q211.60 38.90 213 38.90Q213.60 38.90 214.07 39.25Q214.55 39.60 214.60 40.10L214.85 42.35Q215 42.55 215.15 42.55Q215.30 42.55 215.95 41.75Q218.05 39.30 219.70 39.30Q220.35 39.30 220.75 39.50Q221.15 39.70 221.68 40.27Q222.20 40.85 222.25 40.90Q222.60 40.75 222.95 40.75Q223.50 40.75 223.50 41.42Q223.50 42.10 221.55 43.92Q219.60 45.75 218.65 45.75Q217.70 45.75 217.05 44.90Q216.40 44.05 216.10 44.05Q214.95 44.05 214.95 45.25Q214.95 46.15 215.78 48.30Q216.60 50.45 216.60 50.85Q216.60 51.85 215.57 52.42Q214.55 53.00 213.32 53.00Q212.10 53.00 211.35 52.60Q210.60 52.20 210.60 51.50L212 45.45Q212 43.90 210.30 43.90ZM227.95 44.70Q228.80 44.40 229.68 42.77Q230.55 41.15 230.55 40.10Q230.55 39.05 229.75 39.00Q228.55 39.00 228.05 40.07Q227.55 41.15 227.55 42.42Q227.55 43.70 227.95 44.70M232.25 47.95Q233.65 47.95 234.58 47.32Q235.50 46.70 236.33 45.70Q237.15 44.70 237.63 44.70Q238.10 44.70 238.10 45.15Q238.10 45.45 237.90 45.85Q236.25 48.50 233.80 50.52Q231.35 52.55 228.60 52.55Q225.85 52.55 224.63 51.22Q223.40 49.90 223.40 47.70Q223.40 43.90 226.25 39.92Q229.10 35.95 232.15 35.95Q233.75 35.95 233.75 37.25Q233.75 39.00 232.65 40.87Q231.55 42.75 228.60 45.95Q229.95 47.95 232.25 47.95ZM240.00 44.70Q240.85 44.40 241.73 42.77Q242.60 41.15 242.60 40.10Q242.60 39.05 241.80 39.00Q240.60 39.00 240.10 40.07Q239.60 41.15 239.60 42.42Q239.60 43.70 240.00 44.70M244.30 47.95Q245.70 47.95 246.63 47.32Q247.55 46.70 248.38 45.70Q249.20 44.70 249.68 44.70Q250.15 44.70 250.15 45.15Q250.15 45.45 249.95 45.85Q248.30 48.50 245.85 50.52Q243.40 52.55 240.65 52.55Q237.90 52.55 236.68 51.22Q235.45 49.90 235.45 47.70Q235.45 43.90 238.30 39.92Q241.15 35.95 244.20 35.95Q245.80 35.95 245.80 37.25Q245.80 39.00 244.70 40.87Q243.60 42.75 240.65 45.95Q242.00 47.95 244.30 47.95ZM252.35 43.97Q252.35 43.97 252.35 44.86Q252.35 45.75 253.40 46.97Q254.45 48.20 256.18 48.20Q257.90 48.20 259.03 47.77Q260.15 47.35 260.75 46.92Q261.35 46.50 261.65 46.50Q262.10 46.50 262.10 46.95Q262.10 48.50 259.20 50.62Q256.30 52.75 252.45 52.75Q250.00 52.75 248.78 51.52Q247.55 50.30 247.55 48.30Q247.55 44.70 250.63 41.12Q253.70 37.55 257.70 37.55Q258.65 37.55 259.23 38.12Q259.80 38.70 259.80 39.77Q259.80 40.85 258.58 42.17Q257.35 43.50 256.10 43.50Q255.75 43.50 255.75 43.15Q255.75 42.80 256.13 42.40Q256.50 42.00 256.50 41.42Q256.50 40.85 256.13 40.30Q255.75 39.75 255.30 39.75Q253.95 39.75 253.15 40.97Q252.35 42.20 252.35 43.97ZM265.50 44.70Q266.35 44.40 267.23 42.77Q268.10 41.15 268.10 40.10Q268.10 39.05 267.30 39.00Q266.10 39.00 265.60 40.07Q265.10 41.15 265.10 42.42Q265.10 43.70 265.50 44.70M269.80 47.95Q271.20 47.95 272.13 47.32Q273.05 46.70 273.88 45.70Q274.70 44.70 275.18 44.70Q275.65 44.70 275.65 45.15Q275.65 45.45 275.45 45.85Q273.80 48.50 271.35 50.52Q268.90 52.55 266.15 52.55Q263.40 52.55 262.18 51.22Q260.95 49.90 260.95 47.70Q260.95 43.90 263.80 39.92Q266.65 35.95 269.70 35.95Q271.30 35.95 271.30 37.25Q271.30 39.00 270.20 40.87Q269.10 42.75 266.15 45.95Q267.50 47.95 269.80 47.95Z"/></g><g fill="#766076" transform="translate(0, 72.5)"><path d=""/></g></g></svg>
+           
+            <div class="content">
+
+                <div class="paragraph"><span style="color: goldenrod;">Santorini</span> is a stunning Greek island in the <span style="color: goldenrod;">  Aegean Sea</span>, famous for its white-washed houses, blue-domed churches, and breathtaking sunsets. Formed by a volcanic eruption, the island boasts dramatic cliffs, black sand beaches, and crystal-clear waters.Santorini offers a mix of romance, adventure, and history, making it one of the most picturesque and sought-after destinations in<span style="color: goldenrod;"> Greece</span>.</div>
+            <!--  Known for its delicious Swiss chocolate and premium watches, Switzerland is also home to a rich cultural heritage and a reputation for excellence. Whether you seek adventure, relaxation, or luxury, Switzerland promises an unforgettable experience. -->
+               </div>
+
+        </div>
+
+        <div class="general-info-container">
+            <h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+        text-underline-offset: 15px; text-decoration-thickness: 1px; color: #333333;">General Information</h1>
+        <div class="grid">
+            
+         <div class="box1"><i class="fa-solid fa-globe" style="color: #604848 ;"></i> &nbsp;<br><p style="font-size: 30px; color: #205673 ;">Continent</p>
+              <p>Europe</p></div>
+        <div class="box1"><i class="fa-solid fa-city" style="color: #604848 ;"></i>&nbsp;<br><p style="font-size: 30px; color: #205673;">Capital</p>
+               <p>Athens</p></div>
+        <div class="box1"><i class="fa-solid fa-language" style="color: #604848 ;"></i>&nbsp; <br><p style="font-size: 30px;color: #205673;">Language</p>
+                 <p>Greek</p></div>
+        <div class="box1"><i class="fa-solid fa-person" style="color: #604848 ;"></i>&nbsp;<br><p style="font-size: 30px;color: #205673;"> Population</p>
+              <p> 10.3 million </p></div>
+        <div class="box1"><i class="fa-solid fa-passport" style="color: #604848 ;"></i>&nbsp; <br><p style="font-size: 30px;color: #205673;">Visa</p>   
+                   <p> Schengen Visa: Greece is part of the Schengen Zone.</p></div>
+        <div class="box1"><i class="fa-solid fa-clock" style="color: #604848 ;" ></i>&nbsp;<br> <p style="font-size: 30px;color: #205673;">TimeZone</p>
+                 <p>Eastern European Time (EET, UTC+2)</p>
+               </div>
+        <div class="box1"><i class="fa-solid fa-wallet" style="color: #604848 ;"></i>&nbsp;<br> <p style="font-size: 30px;color: #205673;">Currency</p>
+                  <p> Euro (€)</p></div>
+        <div class="box1"><i class="fa-solid fa-face-smile" style="color: #604848 ;"></i>&nbsp;<br> <p style="font-size: 30px;color: #205673;">Famous for</p>
+         <p>Ancient ruins, Mediterranean cuisine, beaches, mythology, and island-hopping</p>           
+        </div>
+        <div class="box1"><i class="fa-solid fa-plane-departure" style="color: #604848 ;"></i>&nbsp;<br> <p style="font-size: 30px;color: #205673;">Travel Means</p>
+            <p>By Air and Seaways (ferry)</p>           
+           </div>
+           <div class="box1"><i class="fa-solid fa-cloud-sun" style="color: #604848 ;"></i>&nbsp;<br> <p style="font-size: 30px;color: #205673;">Months to visit</p>
+            <p> April – October (Summer & shoulder seasons)</p>           
+           </div>
+        
+        </div>
+        
+        
+        </div> <br><br><br><br>
+
+
+        <div class="flex">
+
+            <div class="contents">
+                <h1 style="color: #333333;text-decoration: underline; line-height: 2; text-underline-offset: 15px; text-decoration-thickness: 1px; ">About</h1> <br>
+                <p class="p1">Formed by a massive volcanic eruption thousands of years ago, the <span style="color: white;"> Santorini </span>island features dramatic cliffs that overlook a submerged volcanic caldera, creating one of the most stunning landscapes in the world. Visitors can explore the charming villages of<span style="color: white;"> Oia </span>  and <span style="color: white;"> Fira </span> , relax on unique volcanic beaches with black and red sand, or delve into history at the ancient Minoan ruins of <span style="color: white;"> Akrotiri </span> . Santorini is also famous for its exceptional local wines, thanks to its nutrient-rich volcanic soil. Whether you're seeking romance, adventure, or cultural experiences, this Greek paradise offers an unforgettable blend of natural beauty, history, and luxury.</p>
+        
+                  <p class="p2"> <span style="color: white;"> Greece</span>, a country in southeastern Europe, is known for its rich history, stunning landscapes, and vibrant culture. As the birthplace of democracy, philosophy, and the Olympic Games, Greece has left a lasting impact on the world. Its capital, <span style="color: white;">Athens</span>, is home to iconic ancient landmarks like the <span style="color: white;">Parthenon </span> and the <span style="color: white;"> Acropolis</span>. Beyond its historical sites, Greece boasts breathtaking islands such as <span style="color: white;"> Santorini </span>,<span style="color: white;"> Mykonos</span> , and <span style="color: white;">Crete</span>, each offering unique experiences, from white-sand beaches to picturesque villages. The country’s Mediterranean cuisine, featuring dishes like <span style="color: white;"> moussaka </span> , <span style="color: white;">souvlaki</span>, and <span style="color: white;">baklava</span>, is another highlight. With its warm hospitality, stunning coastlines, and deep-rooted traditions, Greece is a top travel destination for history lovers, beachgoers, and food enthusiasts alike.</p>
+                  <!-- <p class="p3">Whether you're drawn to the bustling energy of Tokyo, the peaceful countryside, or the historic sites of Kyoto and Hiroshima, Japan offers a unique travel experience that balances the past and future in a way that few countries can.</p> -->
+            </div>
+          <div class="gallery">
+            <div class="gallery-container">
+                <img src="greecepics/window.jpg" class="gallery-item">
+                <img src="greecepics/ruins.avif" class="gallery-item">
+                <img src="greecepics/boat.jpg" class="gallery-item">
+                <img src="greecepics/greece-1896197_1280.jpg" class="gallery-item">
+            </div>
+            </div> 
+        </div> <br>
+
+        <h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+text-underline-offset: 15px; text-decoration-thickness: 1px; color:#333333;">Popular destinations</h1>
+
+<!-- <div class="letter">
+  <img class="jletter" src="./pictures/japanese_letter.png" alt="" height="100px">
+</div> -->
+
+<div class="cards">
+ <div class="items ms-4">
+
+
+     <div class="c1">
+    <div class="card" style="width: 18rem; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); ">
+        <img src="./greecepics/oia.jpg" class="card-img-top" alt="..." style="height: 210px;">
+        <div class="card-body" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+            <h2>Oia Village </h2>
+          <p class="card-text" style="text-align: start;"> The most famous village with breathtaking sunsets, whitewashed houses, and blue-domed churches.One of the most photographed sunsets on Earth! 
+          
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="c1">
+      <div class="card" style="width: 18rem; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+        <img src="./greecepics/redbeach.webp" class="card-img-top" alt="..." style="height: 210px;">
+        <div class="card-body" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+           <h2>Red beach</h2>
+          <p class="card-text"style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">A unique volcanic beach with red cliffs and crystal-clear waters. It gets its deep red color from volcanic iron-rich cliffs and sand, formed by past eruptions.</p>
+        </div>
+      </div>
+    </div>
+   
+    <div class="c1">
+      <div class="card" style="width: 18rem;  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+        <img src="./greecepics/zante.jpg" class="card-img-top" style="height: 210px;" alt="...">
+        <div class="card-body" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+            <h2>Zakynthos</h2>
+          <p class="card-text"  style= "text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">Home to Navagio (Shipwreck) Beach, one of the most photographed beaches in the world. One of the popular destinationsin Greece.
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="c1">
+      <div class="card" style="width: 18rem;box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+        <img src="./greecepics/meteroa.jpg" class="card-img-top" alt="..." style="height: 210px;">
+        <div class="card-body" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+            <h2>Meteora</h2>
+          <p class="card-text">A UNESCO World Heritage site known for its massive rock formations and monasteries built on top. Location:
+            Central Greece, near the town of Kalambaka </p>
+        </div>
+      </div>
+    </div>
+
+
+ </div>
+
+
+</div> <br><br>
+
+<h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+text-underline-offset: 15px; text-decoration-thickness: 1px; color:#333333;">Major Celebrations & Cultural Festivities</h1>
+ <div class="flex1">
+
+  <div class="baselcontent">
+    <p class="headerFestival">1.Greek Orthodox Easter (Pascha) </p> 
+    <p class="baselpara">📅 Changes yearly (March/April)
+        <br>
+      🎭  The Biggest Celebration <br>
+      
+      Greek Orthodox Easter, known as Pascha, is the most significant and sacred celebration in Greece, marking the resurrection of Jesus Christ. More than just a religious event, it is a time of deep spiritual reflection, ancient customs, and joyous gatherings. The celebrations last for a full week, culminating in an awe-inspiring midnight service, candlelit processions, and a grand Easter Sunday feast.</p>
+
+  </div>
+
+  <div class="baselphoto">
+    <video src="./greecepics/easter.mp4" alt="" height="550px" width="550px" autoplay loop muted>
+  </div>
+
+ </div> 
+
+ <div class="flex2" style="margin-top: 20px;">
+  
+<div class="swissphoto">
+  <video src="./greecepics/IfestiaFestival.mp4" alt="" height="550px" width="550px"  autoplay loop muted>
+
+</div>
+<div class="swisscontent">
+  <p class="headerFestival">2.Ifestia Festival– Santorini’s "Volcano Festival"</p> 
+  <p class="swisspara">📅  August (date varies) <br>
+    🎆 The biggest Annual celebration in Santorini <br>
+    
+    Ifestia Festival is Santorini’s biggest annual celebration, dedicated to the volcanic origins of the island. It features an incredible fireworks show that simulates a volcanic eruption, along with music, dancing, and cultural performances.
+
+    It honors the powerful Santorini volcano, which shaped the island and its history.</p>
+
+</div>
+
+ </div> 
+
+ <div class="flex1" style="margin-top: 20px;">
+
+  <div class="baselcontent">
+    <p class="headerFestival">3. Ochi Day –  National Celebration</p> 
+    <p class="baselpara">📅 October 28th<br>
+      🎆 Military parades, flag ceremonies, and cultural events.<br>
+      
+      Ochi Day ("Oxi Day" – meaning "No" Day) is one of Greece’s most important national holidays, commemorating October 28, 1940, when Greece bravely rejected an ultimatum from Italy’s fascist leader, Benito Mussolini, to allow Italian troops to occupy Greek territory.
+
+Greek Prime Minister Ioannis Metaxas reportedly responded with a simple yet powerful "OXI" (NO!), leading Greece into World War II against the Axis powers. The Greek resistance that followed played a key role in the war and is still honored today.
+
+ </p>
+
+  </div>
+
+  <div class="baselphoto">
+    <video src="./greecepics/oxi.mp4" alt="" height="550px" width="550px" autoplay loop muted>
+  </div>
+
+ </div>
+
+ <h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+text-underline-offset: 15px; text-decoration-thickness: 1px; color: #333333;">Important Landmarks</h1> <br><br>
+ <div class="landmarks">
+  
+   <div class="landmarkimages"> 
+    <div class="i1"><img src="./greecepics/delphi.jpeg" alt="" height="350px" width="350px" >
+      <div class="overlay">Delphi – The Oracle’s Sacred Site</div>
+    </div>
+    <div class="i1"><img src="./greecepics/greece-1896197_1280.jpg" alt="" height="350px" width="350px" ><div class="overlay">Oia Village <br>Santorini</div></div>
+   
+    <div class="i1"><img src="./greecepics/posiedon.avif" alt="" height="350px" width="350px" ><div class="overlay">  The Temple of Poseidon <br></div></div>
+
+    <div class="i1"><img src="./greecepics/parthenon.webp" alt="" height="350px" width="350px" ><div class="overlay">Parthenon</div></div>
+
+   </div>
+
+
+ </div> <br><br>
+
+
+  
+ <h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+ text-underline-offset: 15px; text-decoration-thickness: 1px; color: #333333;">Popular Food and Cuisines</h1> <br>
+ 
+ <div class="food" style="margin-top: 10px;">
+
+  <div class="foodcontent1">
+    <p class="headerFestival">1. Moussaka – The Greek Lasagna </p> 
+    <p class="food1para">Layers of eggplant, minced meat, béchamel sauce, and spices. <br>
+
+      Moussaka is one of Greece’s most famous and beloved dishes,<br> known for its rich layers of eggplant, minced meat, and creamy <br> béchamel sauce. It is a comforting, baked casserole that is often <br>called "the Greek lasagna" because of its layered structure.</p>
+
+  </div>
+
+
+  <div class="food1photo">
+    <img src="./greecepics/moussaka.webp" alt="" height="400px" width="450px" style="border-radius: 50%;">
+  </div>
+</div> 
+
+  <div class="food2" style="margin-top: 10px;">
+  
+    <div class="food2photo">
+      <img src="./greecepics/baklava.webp" alt="" height="400px" width="450px" style="border-radius: 50%;">
+    
+    </div>
+    <div class="food2content">
+      <p class="headerFestival">2.Baklava – Greece’s Sweet Delight </p> 
+      <p class="food1para">
+        Layers of phyllo pastry, honey, and nuts.Baklava is one of Greece’s <br> most beloved desserts, known for its crispy layers of phyllo pastry, <br>rich nut filling, and sweet honey syrup. This indulgent treat is a  <br> staple in Greek cuisine and is enjoyed during festivals, celebrations,<br> and special occasions.
+         </p>
+    
+    </div>
+    
+     </div> 
+
+
+     <div class="food" style="margin-top: 50px;">
+
+      <div class="foodcontent1">
+        <p class="headerFestival">3. Tomatokeftedes – Santorini’s Tomato Fritters</p> 
+        <p class="food1para">Crispy deep-fried tomato balls made from Santorini’s  <br>unique cherry tomatoes.Tomatokeftedes (τοματοκεφτέδες) <br>are crispy, flavorful tomato fritters that are a specialty of Santorini, <br>Greece. Made with juicy local tomatoes, fresh herbs, and feta <br> cheese, they are a must-try dish when visiting the island.</p>
+    
+      </div>
+    
+    
+      <div class="food1photo">
+        <img src="./greecepics/tomatooo.jpg" alt="" height="400px" width="450px" style="border-radius: 50%;">
+      </div>
+    </div>  <br><br><br><br>
+ 
+
+    
+    <div class="griding">
+        <div class="iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1680856.7846244418!2d21.536077951146268!3d39.26744215668108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b4ac711716c63%3A0x363a1775dc9a2d1d!2sGreece!5e1!3m2!1sen!2sin!4v1743181386356!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+  
+        <div class="climate">
+          <h1 style="margin-top: 30px;text-decoration: underline; line-height: 2;
+   text-underline-offset: 15px; text-decoration-thickness: 1px; color: #333333;">Best Time to Visit for Different Activities</h1> <br>
+  <p>
+     
+   <span style="color: #604848">For beaches & swimming </span>: June – September<br>
+   <span style="color: #604848;">For sightseeing & photography </span>: April – June, September – October<br>
+   <span style="color: #604848;"> For budget-friendly travel</span>: November – March<br>
+   <span style="color: #604848;"> For nightlife & festivals </span>: July – August 
+  </p>
+        </div>
+      </div> <br><br>
+     
+         
+<!-- foroter -->
+<section class="footer">
+  <br><br><br>
+
+  <div class="container-fluid">
+     <div class="dark-logo">
+      <img src="./pictures/logo-dark.png" alt="">
+     </div>
+     <br>
+     <div class="container service">
+       <br><br>
+          <p style="font-size: large; color: white; text-align: center;">Adventure awaits! Explore breathtaking destinations, uncover hidden gems, and embrace the beauty <br>
+             of the world—one journey at a time. Stay inspired, keep wandering!</p>
+          
+     </div>
+    <br>
+     <div class="h-line"></div>
+     <br>
+<div class="container footerlist">
+
+<ul class="d-flex justify-content-between">
+  <li>About Us</li>
+  <li>Terms & Conditions</li>
+  <li>Privacy Policy</li>
+  <li>Contact Us</li>
+  <li>Advertising</li>
+  <li>Contributers</li>
+  <li>FAQ</li>
+</ul>
+
+</div>
+      
+      
+      <br>
+      <div class="copyright">
+          <p >Copyright © 2025 Around The Atlas.</p>
+          <p >All rights reserved. Use of this website indicates your compliance with our
+              Privacy Policy, Conditions of
+              Carriage, Terms and Conditions.
+
+          </p>
+          <br>
+          <div class="Social-icons" >
+            <span class="codex--linkedin"></span>
+                                <span style="width: 30px; height: 25px;" class="ph--youtube-logo-light"></span>
+                                <span class="mingcute--twitter-line"></span>
+                                <span class="bxl--instagram"></span>
+                                <br>
+                                <br>
+          </div>
+      </div> <br><br>
+  </div>
+</section>
+
+  
+  
+  
+  
+        
+     
+       
+
+
+
+
+
+
+        </div>
+
+
+    
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js" integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./greece.js"></script>
+</body>
+</html>
