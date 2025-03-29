@@ -17,130 +17,160 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-  
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
 </head>
 
 <body>
 
   <!-- Navbar -->
-   <section>
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand text-white" href="#">
-        <img src="./images/logo-nbg.png" alt="Logo" width="200" >
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link text-white" href="#">Destination</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#">Author</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#">Login</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#"><button class="btn"
-                style="margin-top: -6px;"><span class="iconamoon--search-light"></span></button>
-            </a></li>
+  <section>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">
+          <img src="./images/logo-nbg.png" alt="Logo" width="200">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link text-white" href="#">Destination</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">Author</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">Login</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#"><button class="btn"
+                  style="margin-top: -6px;"><span class="iconamoon--search-light"></span></button>
+              </a></li>
 
-        </ul>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-</section>
+    </nav>
+  </section>
 
   <!-- Video Carousel -->
-<section>
-  <div id="videoCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <video src="./videos/3880951-uhd_3840_2160_30fps.mp4" autoplay muted loop></video>
-        <div class="carousel-caption">
-          <h4>Featured This Month</h4>
-          <h2>Switzerland</h2>
+  <section>
+    <div id="videoCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video src="./videos/3880951-uhd_3840_2160_30fps.mp4" autoplay muted loop></video>
+          <div class="carousel-caption">
+            <h4>Featured This Month</h4>
+            <h2>Switzerland</h2>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <video src="./videos/13318564_3840_2160_25fps.mp4" autoplay muted loop></video>
-        <div class="carousel-caption">
-          <h4>Featured This Month</h4>
-          <h2>Tokyo</h2>
+        <div class="carousel-item">
+          <video src="./videos/13318564_3840_2160_25fps.mp4" autoplay muted loop></video>
+          <div class="carousel-caption">
+            <h4>Featured This Month</h4>
+            <h2>Tokyo</h2>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <video src="./videos/20591098-hd_1920_1080_30fps.mp4" autoplay muted loop></video>
-        <div class="carousel-caption">
-          <h4>Featured This Month</h4>
-          <h2>Greece</h2>
+        <div class="carousel-item">
+          <video src="./videos/20591098-hd_1920_1080_30fps.mp4" autoplay muted loop></video>
+          <div class="carousel-caption">
+            <h4>Featured This Month</h4>
+            <h2>Greece</h2>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <video src="./videos/5600930-hd_1920_1080_25fps.mp4" autoplay muted loop></video>
-        <div class="carousel-caption">
-          <h4>Featured This Month</h4>
-          <h2>Norway</h2>
+        <div class="carousel-item">
+          <video src="./videos/5600930-hd_1920_1080_25fps.mp4" autoplay muted loop></video>
+          <div class="carousel-caption">
+            <h4>Featured This Month</h4>
+            <h2>Norway</h2>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
+  <!-- Quiz Section -->
+  <section class="quizSection">
+    <h2 class="heading">How well do you know the world?</h2> <img src="images/quiz.gif" alt="" width="70">
+    <h4>Take a quiz to find out!</h4>
+    <div data-fillout-id="u3xv2AjqXPus" data-fillout-embed-type="popup" data-fillout-button-text="Take Quiz!"
+      data-fillout-dynamic-resize data-fillout-button-color="#5592B7" data-fillout-button-size="medium"
+      data-fillout-inherit-parameters data-fillout-popup-size="medium"></div>
+   </section>
+    <!---------------->
 
+    <!-- footer -->
+    <section class="footer">
+      <br><br><br>
 
+      <div class="container-fluid">
+        <div class="dark-logo">
+          <img src="./images/logo-dark.png" alt="">
+        </div>
+        <br>
+        <div class="container service">
+          <br><br>
+          <p style="font-size: large; color: white; text-align: center;">Adventure awaits! Explore breathtaking
+            destinations, uncover hidden gems, and embrace the beauty <br>
+            of the world—one journey at a time. Stay inspired, keep wandering!</p>
 
-<!-- foroter -->
-<section class="footer">
-    <br><br><br>
+        </div>
+        <br>
+        <div class="h-line"></div>
+        <br>
+        <div class="container footerlist">
 
-    <div class="container-fluid">
-       <div class="dark-logo">
-        <img src="./images/logo-dark.png" alt="">
-       </div>
-       <br>
-       <div class="container service">
-         <br><br>
-            <p style="font-size: large; color: white; text-align: center;">Adventure awaits! Explore breathtaking destinations, uncover hidden gems, and embrace the beauty <br>
-               of the world—one journey at a time. Stay inspired, keep wandering!</p>
-            
-       </div>
-      <br>
-       <div class="h-line"></div>
-       <br>
-<div class="container footerlist">
-  
-  <ul class="d-flex justify-content-between">
-    <li>About Us</li>
-    <li>Terms & Conditions</li>
-    <li>Privacy Policy</li>
-    <li>Contact Us</li>
-    <li>Advertising</li>
-    <li>Contributers</li>
-    <li>FAQ</li>
-  </ul>
-  
-</div>
-        
-        
+          <ul class="d-flex justify-content-between">
+            <li>About Us</li>
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Contact Us</li>
+            <li>Advertising</li>
+            <li>Contributers</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+
         <br>
         <div class="copyright">
-            <p >Copyright © 2025 Around The Atlas.</p>
-            <p >All rights reserved. Use of this website indicates your compliance with our
-                Privacy Policy, Conditions of
-                Carriage, Terms and Conditions.
+          <p>Copyright © 2025 Around The Atlas.</p>
+          <p>All rights reserved. Use of this website indicates your compliance with our
+            Privacy Policy, Conditions of
+            Carriage, Terms and Conditions.
+          </p>
+          <br>
+          <div class="Social-icons">
+            <span class="codex--linkedin"></span>
+            <span style="width: 30px; height: 25px;" class="ph--youtube-logo-light"></span>
+            <span class="mingcute--twitter-line"></span>
+            <span class="bxl--instagram"></span>
+          </div>
+        </div> 
+      </div>
+    </section>
 
-            </p>
-            <br>
-            <div class="Social-icons" >
-              <span class="codex--linkedin"></span>
-                                  <span style="width: 30px; height: 25px;" class="ph--youtube-logo-light"></span>
-                                  <span class="mingcute--twitter-line"></span>
-                                  <span class="bxl--instagram"></span>
-                                  <br>
-                                  <br>
-            </div>
-        </div> <br><br>
-    </div>
-</section>
-  
+
+    <!-- Quiz source JS -->
+    <script src="https://server.fillout.com/embed/v1/"></script>
+  </section>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "cards",
+      grabCursor: true,
+    });
+  </script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- GSAP ScrollTrigger CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <!-- Script -->
+  <script src="script.js"></script>
 </body>
 
 </html>
