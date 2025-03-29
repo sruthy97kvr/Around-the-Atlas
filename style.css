@@ -164,3 +164,32 @@
     transform: scale(1.3);  
     color: white;
 }
+
+
+/* quizSection */
+.quizSection {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+.heading {
+    font-size: 30px;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+.heading {
+    font-size: 50px;
+  }
+}
+
+/* ---- */
