@@ -13,7 +13,7 @@
   
 }
 .navbar {
-    background-color: rgba(255, 255, 255, 0.466) !important; 
+    background-color: rgba(234, 17, 17, 0) !important; 
     transition: background-color 0.3s ease-in-out; 
     z-index: 0;
 }
@@ -177,6 +177,108 @@
   background-color: aliceblue;
 }
 
+.card {
+  width: 18rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.card-body img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.editor-choice{
+  min-height: 100vh;
+}
+.Editor-head{
+  text-align: center;
+
+}
+.Editor-head h1{
+  font-family: "Kaushan Script" 
+}
+
+
+.editor-choice {
+  padding: 50px 0;
+  text-align: center;
+  background: #f8f9fa;
+}
+
+.editorChoices {
+  margin-top: 20px;
+}
+
+.card {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+.card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.gallery-head h1{
+  font-family: "Kaushan Script"; 
+  color: #06a3c4;
+}
+
+.gallery {
+  display: flex;
+  gap: 15px;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-container img {
+  width: 350px; 
+  height: 500px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.4s ease-in-out;
+  border-radius: 10px;
+}
+
+ 
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
 .heading {
@@ -193,3 +295,39 @@
 }
 
 /* ---- */
+
+.overlay h3 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 20px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.explore-btn {
+  background: #ff9800;
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.image-container:hover h3,
+.image-container:hover .explore-btn {
+  opacity: 1;
+  transform: translateY(0);
+}
