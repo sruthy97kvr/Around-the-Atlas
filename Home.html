@@ -27,7 +27,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
         <a class="navbar-brand text-white" href="#">
-          <img src="./images/logo-dark.png" alt="Logo" width="200">
+          <img src="./images/logo-dark.png" alt="Logo" width="188">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
@@ -65,13 +65,13 @@
             <h2>Japan</h2>
           </div>
         </div>
-     
-      <div class="carousel-item">
-        <video src="./videos/20591098-hd_1920_1080_30fps.mp4" autoplay muted loop></video>
-        <div class="carousel-caption">
-          <h4>Featured This Month</h4>
-          <h2>Greece</h2>
-        </div>
+
+        <div class="carousel-item">
+          <video src="./videos/20591098-hd_1920_1080_30fps.mp4" autoplay muted loop></video>
+          <div class="carousel-caption">
+            <h4>Featured This Month</h4>
+            <h2>Greece</h2>
+          </div>
         </div>
         <div class="carousel-item">
           <video src="./videos/5600930-hd_1920_1080_25fps.mp4" autoplay muted loop></video>
@@ -82,115 +82,171 @@
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- floating-button -->
-<div class="floating-button" id="chatbotToggle">
-  <span class="hand-wave">👋🏻</span>
-  <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Avatar">
-</div>
-<!-- Chatbot Modal -->
-<div class="chatbot-modal" id="chatbotModal">
-  <div class="chatbot-header">
-      Chat with Us 
-      <span class="close-btn" id="closeChatbot">&times;</span>
-  </div>
-  <div class="chatbot-body">
-      <p><b>Bot:</b> Hi! How can I help you today?</p>
-  </div>
-  <div class="chatbot-footer">
-      <input type="text" id="chatInput" placeholder="Type a message...">
-      <button id="sendBtn">Send</button>
-  </div>
-</div>
-
-<!-- Editor's Choice -->
-<section>
-  <div class="editor-choice">
+    </div>
+  </section>
+  <!-- Editor's Choice -->
+  <section>
+    <div class="editor-choice">
       <div class="Editor-head">
-          <h1>Editor's Choice</h1>
+        <h1>Editor's Choice</h1>
+        <div class="divider mb-5 mt-2"> </div>
       </div>
       <div class="container editorChoices">
-          <div class="row">
-              <div class="col-md-4 col-sm-12">
-                  <div class="card">
-                      <div class="card-body">
-                          <img src="./images/MagazineCoverApril2025.png" alt="Magazine Cover">
-                      </div>
-                  </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12 d-flex align-items-center justify-content-center">
+            <div class="card">
+              <div class="card-body">
+                <img src="./images/MagazineCoverApril2025.png" alt="Magazine Cover">
               </div>
-              <div class="col-md-8 col-sm-12 d-flex justify-content-between">
-                  <div class="card">
-                      <div class="card-body">
-                          <img src="./images/editorChoice/jappanArticle.jpg" alt="Article">
-                      </div>
-                  </div>
-                  <div class="card">
-                      <div class="card-body">
-                          <img src="./images/editorChoice/japanFood.jpg" alt="Nature">
-                      </div>
-                  </div>
-                  
-                  <div class="card">
-                      <div class="card-body">
-                          <img src="./images/editorChoice/japanCulture.jpg" alt="City">
-                      </div>
-                  </div>
-              </div>
+            </div>
           </div>
-      </div>
-  </div>
-</section>
+          <div class="col-md-8 col-sm-12 d-flex justify-content-between">
+            <div class="card">
+              <div class="card-body">
+                <img src="./images/editorChoice/jappanArticle.jpg" alt="Article">
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img src="./images/editorChoice/japanFood.jpg" alt="Nature">
+              </div>
+            </div>
 
-<!--Article Gallery-->
-<section>
-  <div class="gradient-bg">
-      <div class="gallery-head text-center">
-          <h1>Article Gallery</h1>
-      </div>
-      <div class="gallery-content d-flex justify-content-center">
-          <div class="gallery">
-              <div class="image-container">
-                  <img src="./images/gallery/switzerland.jpg" alt="Switzerland">
-                  <div class="overlay">
-                      <h3>Explore Switzerland</h3>
-                      <a href="./swiss.html" class="explore-btn">Explore</a>
-                  </div>
+            <div class="card">
+              <div class="card-body">
+                <img src="./images/editorChoice/japanCulture.jpg" alt="City">
               </div>
-              <div class="image-container">
-                  <img src="./images/gallery/japan.jpg" alt="Japan">
-                  <div class="overlay">
-                      <h3>Explore Japan</h3>
-                      <a href="./tokyo.html" class="explore-btn">Explore</a>
-                  </div>
-              </div>
-              <div class="image-container">
-                  <img src="./images/gallery/greece.jpg" alt="Greece">
-                  <div class="overlay">
-                      <h3>Explore Greece</h3>
-                      <a href="#" class="explore-btn">Explore</a>
-                  </div>
-              </div>
-              <div class="image-container">
-                  <img src="./images/gallery/norway.jpg" alt="Norway">
-                  <div class="overlay">
-                      <h3>Explore Norway</h3>
-                      <a href="#" class="explore-btn">Explore</a>
-                  </div>
-              </div>
+            </div>
           </div>
+        </div>
       </div>
+    </div>
+  </section>
+
+  <!-- floating-button -->
+  <div class="floating-button" id="chatbotToggle">
+    <span class="hand-wave">👋🏻</span>
+    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Avatar">
   </div>
-  <br> <br>
-</section>
+  <!-- Chatbot Modal -->
+  <div class="chatbot-modal" id="chatbotModal">
+    <div class="chatbot-header">
+      Chat with Us
+      <span class="close-btn" id="closeChatbot">&times;</span>
+    </div>
+    <div class="chatbot-body">
+      <p><b>Bot:</b> Hi! How can I help you today?</p>
+    </div>
+    <div class="chatbot-footer">
+      <input type="text" id="chatInput" placeholder="Type a message...">
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+
+  <!--Article Gallery-->
+  <section class="article-section py-4">
+    <div class="gradient-bg">
+      <div class="gallery-head text-center pb-3">
+        <h1>Article Gallery</h1>
+      </div>
+      <div class="divider mb-5"> </div>
+      <div class="gallery-content d-flex justify-content-center">
+        <div class="gallery row align-items-center justify-content-center">
+          <div class="image-container col-md-3 col-sm-6 w-sm-95">
+            <img src="./images/gallery/switzerland.jpg" alt="Switzerland">
+            <div class="overlay">
+              <h3>Explore Switzerland</h3>
+              <a href="./swiss.html" class="explore-btn">Explore</a>
+            </div>
+          </div>
+          <div class="image-container col-md-3 col-sm-6">
+            <img src="./images/gallery/japan.jpg" alt="Japan">
+            <div class="overlay">
+              <h3>Explore Japan</h3>
+              <a href="./tokyo.html" class="explore-btn">Explore</a>
+            </div>
+          </div>
+          <div class="image-container col-md-3 col-sm-6">
+            <img src="./images/gallery/greece.jpg" alt="Greece">
+            <div class="overlay">
+              <h3>Explore Greece</h3>
+              <a href="#" class="explore-btn">Explore</a>
+            </div>
+          </div>
+          <div class="image-container col-md-3 col-sm-6">
+            <img src="./images/gallery/norway.jpg" alt="Norway">
+            <div class="overlay">
+              <h3>Explore Norway</h3>
+              <a href="#" class="explore-btn">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br> <br>
+  </section>
+
+  <!--Swiper Collage Section-->
+  <section class="collage-section pb-5">
+    <div class="gif-text-container d-flex align-items-center justify-content-center pt-5 mb-4">
+      <img src="images/luggage.gif" alt="" width="6%" height="6%">
+      <h1 class="heading text-center">Discover the World</h1><img src="images/map.gif" alt="" width="6%" height="6%">
+    </div>
+
+    <div class="collage-container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/asia.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/africa.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/northAmerica.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/southAmerica.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/australia.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/antartica.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Quiz Section -->
-  <section class="quizSection d-flex flex-column align-items-center justify-content-center">
-    <h2 class="heading">How well do you know the world?</h2> <img src="images/quiz.gif" alt="" width="70">
-    <h4>Take a quiz to find out!</h4>
-    <div data-fillout-id="u3xv2AjqXPus" data-fillout-embed-type="popup" data-fillout-button-text="Take Quiz!"
-      data-fillout-dynamic-resize data-fillout-button-color="#5592B7" data-fillout-button-size="medium"
-      data-fillout-inherit-parameters data-fillout-popup-size="medium"></div>
+  <section class="quiz-section d-flex flex-column align-items-center justify-content-center">
+    <div class="quiz-container">
+      <h1 class="heading">How well do you know the world?</h1> <img src="images/quiz.gif" alt="" width="70">
+      <h3 class="fw-semibold">Take a quiz to find out!</h3>
+      <div class="row pt-3">
+        <div class="col-md-4 col-sm-12 align-items-center justify-content-center fw-medium">
+          <h5>Globe Trotter's Trivia</h5>
+          <div data-fillout-id="u3xv2AjqXPus" data-fillout-embed-type="popup" data-fillout-button-text="Take Quiz!"
+            data-fillout-dynamic-resize data-fillout-button-color="#5592B7" data-fillout-button-size="medium"
+            data-fillout-inherit-parameters data-fillout-popup-size="medium"></div>
+        </div>
+        <div class="col-md-4 col-sm-12 align-items-center justify-content-center fw-medium">
+          <h5>World Cuisine Adventures Trivia</h5>
+          <div data-fillout-id="nMx8fPppCPus" data-fillout-embed-type="popup" data-fillout-button-text="Take Quiz!"
+            data-fillout-dynamic-resize data-fillout-button-color="#C8AA7F" data-fillout-button-size="medium"
+            data-fillout-inherit-parameters data-fillout-popup-size="medium"></div>
+        </div>
+        <div class="col-md-4 col-sm-12 align-items-center justify-content-center fw-medium">
+          <h5>A Nature Lover's Challenge</h5>
+          <div data-fillout-id="wnmiRYkHnpus" data-fillout-embed-type="popup" data-fillout-button-text="Take Quiz!"
+            data-fillout-dynamic-resize data-fillout-button-color="#799FA1" data-fillout-inherit-parameters
+            data-fillout-popup-size="medium"></div>
+        </div>
+      </div>
+    </div>
+
+
   </section>
   <!---------------->
 
@@ -270,4 +326,5 @@
   <script src="script.js"></script>
 </body>
 <script src="./home.js"></script>
+
 </html>
