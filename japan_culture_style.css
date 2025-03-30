@@ -1,0 +1,220 @@
+/* nav styles */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.466) !important; 
+    transition: background-color 0.3s ease-in-out; 
+    z-index: 0;
+}
+
+.h1{
+    font-family: "Kaushan Script", cursive;
+    text-align: center;
+    font-size: 40px;
+    color: #31578a;
+    margin-bottom: 30px;
+}
+
+.banner{
+    margin-top: 95px;
+    min-height: 80vh;
+    width: 100%;
+    background-image: url('https://cdn.contexttravel.com/image/upload/c_fill,q_60,w_2600/v1728934105/production/city/hero_image_26_17289341050cbc9543.jpg');
+    border-radius: 30px;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: background-size 0.4s ease-in-out;
+}
+
+.banner:hover {
+    background-size: 110% 110%;
+}
+
+.head{
+    font-family: "Kaushan Script", cursive;
+    text-align: center;
+    font-size: 30px;
+    color: #b5925f ;
+}
+
+.para{
+    font-family: "Nunito", sans-serif;
+}
+
+.img{
+    border-radius: 30px;
+}
+
+.img {
+    animation: zoom 2s ease infinite;
+  }
+  
+  @keyframes zoom {
+    0% {
+      scale: 90%;
+    }
+    50% {
+      scale: 100%;
+    }
+    100% {
+      scale: 90%;
+    }
+  }
+
+@keyframes highlight {
+	to {
+		background-position: 0;
+        color: black;
+	}
+}
+
+mark {
+	animation: highlight linear forwards;
+	animation-timeline: view(60% 20%);
+	background: linear-gradient(
+		to right,
+		oklch(0.86 0.19 84.89 / 1) 50%,
+		oklch(0.86 0.19 84.89 / 0) 50%
+	);
+	background-position: 100%;
+	background-size: 200% 100%;
+	border-radius: 0.125rem;
+	padding-inline: 0.125rem;
+}
+
+/* styles for 'footer' */
+.service ul li{
+    list-style-type: none;
+  }
+  .service ul li a{
+    text-decoration: none;
+    color: white;
+    
+  }
+
+  .iconamoon--search-light {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m21 21l-4.343-4.343m0 0A8 8 0 1 0 5.343 5.343a8 8 0 0 0 11.314 11.314'/%3E%3C/svg%3E");
+  }
+  .codex--linkedin {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23000' stroke-width='2'%3E%3Crect width='14' height='14' x='5' y='5' rx='4'/%3E%3Cpath stroke-linecap='round' d='M9 11.4v4m0-6.7v.01m3 2.69v.6m0 3.4V12m0 0c2-.5 3-.639 3 .5v2.9'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+  .ph--youtube-logo-light {
+    display: inline-block;
+    width: 256px;
+    height: 256px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath fill='%23000' d='m163.33 123l-48-32a6 6 0 0 0-9.33 5v64a6 6 0 0 0 9.33 5l48-32a6 6 0 0 0 0-10M118 148.79v-41.58L149.18 128ZM232.4 70a22 22 0 0 0-13.28-15C185 41.79 130.27 42 128 42s-57-.21-91.16 13A22 22 0 0 0 23.6 70c-2.55 9.89-5.6 28-5.6 58s3.05 48.11 5.6 58a22 22 0 0 0 13.28 15C71 214.21 125.72 214 128 214h.71c6.91 0 58-.44 90.45-13a22 22 0 0 0 13.28-15c2.55-9.87 5.6-27.93 5.6-58S235 79.89 232.4 70m-11.62 113a10 10 0 0 1-6 6.86c-32 12.33-86.2 12.14-86.78 12.14s-54.71.2-86.75-12.17a10 10 0 0 1-6-6.86C32.84 173.78 30 156.78 30 128s2.84-45.78 5.22-55a10 10 0 0 1 6-6.86C72.06 54.26 123.53 54 127.76 54h.24c.54 0 54.71-.2 86.75 12.17a10 10 0 0 1 6 6.86c2.38 9.19 5.22 26.19 5.22 55s-2.81 45.75-5.19 54.97'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+  .mingcute--twitter-line {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z'/%3E%3Cpath fill='%23000' d='M17.817 6.989c-.353-.508-1.297-1.222-2.826-.914c-.892.179-1.425.62-1.764 1.202c-.361.62-.536 1.463-.536 2.444a1 1 0 0 1-1 1c-2.366 0-4.618-.703-6.513-2.604a10.5 10.5 0 0 0-.168 2.34c.053 1.086.312 2.175.927 3.108c.605.917 1.6 1.757 3.264 2.285a1 1 0 0 1 .41 1.655a8.5 8.5 0 0 1-1.796 1.405c1.06.11 2.082.118 3.03.032c1.92-.174 3.449-.723 4.405-1.5c2.013-1.632 3.09-4.066 2.89-8.144c-.034-.67.613-1.393.925-1.942c-.471.088-.943.072-1.248-.367M4.594 4.984a1 1 0 0 1 .941.429C7.011 7.572 8.783 8.47 10.75 8.674c.096-.841.323-1.672.75-2.404c.626-1.074 1.644-1.864 3.098-2.156c2.01-.404 3.54.324 4.427 1.215l1.792-.335a1 1 0 0 1 1.053 1.478l-1.72 3.022c.157 4.361-1.055 7.405-3.639 9.502c-1.37 1.112-3.332 1.743-5.485 1.938c-2.17.196-4.623-.041-7.061-.753a1 1 0 0 1 .007-1.922c1.226-.349 2.16-.65 3.003-1.177c-1.199-.636-2.082-1.468-2.707-2.416c-.868-1.318-1.19-2.788-1.254-4.113S3.141 8 3.343 7.115c.115-.505.249-1.011.434-1.495a1 1 0 0 1 .818-.636Z'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+  .bxl--instagram {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M11.999 7.377a4.623 4.623 0 1 0 0 9.248a4.623 4.623 0 0 0 0-9.248m0 7.627a3.004 3.004 0 1 1 0-6.008a3.004 3.004 0 0 1 0 6.008'/%3E%3Ccircle cx='16.806' cy='7.207' r='1.078' fill='%23000'/%3E%3Cpath fill='%23000' d='M20.533 6.111A4.6 4.6 0 0 0 17.9 3.479a6.6 6.6 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.6 6.6 0 0 0-2.184.42a4.6 4.6 0 0 0-2.633 2.632a6.6 6.6 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71s0 2.753.056 3.71c.015.748.156 1.486.419 2.187a4.6 4.6 0 0 0 2.634 2.632a6.6 6.6 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.6 6.6 0 0 0 2.186-.419a4.6 4.6 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186c.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.6 6.6 0 0 0-.421-2.217m-1.218 9.532a5 5 0 0 1-.311 1.688a3 3 0 0 1-1.712 1.711a5 5 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055c-2.438 0-2.687 0-3.655-.055a5 5 0 0 1-1.669-.311a3 3 0 0 1-1.719-1.711a5.1 5.1 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654s0-2.686.053-3.655a5 5 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5 5 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a5 5 0 0 1 1.67.311a3 3 0 0 1 1.712 1.712a5.1 5.1 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655s0 2.698-.043 3.654z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+  .footer{
+    background-color: black;
+  }
+  .h-line {
+    border-bottom: 2px solid #80808069;
+    width: 100%;
+    margin: 20px 0;
+  }
+  .dark-logo ,.copyright{
+    text-align: center;
+  }
+  .copyright p{
+    font-size: smaller;
+    color: grey;
+  }
+  .dark-logo img{
+    width: 250px;
+  }
+  .footerlist ul li{
+    list-style-type: none;
+    margin-left: 20px;
+    color: gray;
+    cursor: pointer;
+  }
+  .footerlist ul li:hover{
+    color: white;
+  }
+
+  .Social-icons span {
+    display: inline-block;  
+    font-size: 24px; 
+    margin: 0 10px;  
+    transition: transform 0.3s ease-in-out; 
+}
+
+.Social-icons span:hover {
+    transform: scale(1.3);  
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Fonts:
+Main headings, sub headings: https://fonts.google.com/specimen/Kaushan+Script
+Content: https://fonts.google.com/specimen/Nunito?query=nunito
+font-family: "Nunito", sans-serif;
+
+Colors:
+Background: white
+
+Headings, buttons
+Main: #31578a
+Sub1: #5088a4
+Sub2: #36969b
+Sub3: #b5925f */
