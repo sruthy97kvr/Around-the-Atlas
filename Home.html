@@ -84,10 +84,9 @@
     </div>
     </div>
   </section>
-
-  <!-- Editor's Choice -->
-  <section>
-    <div class="editor-choice">
+<!-- Editor's Choice -->
+<section>
+  <div class="editor-choice">
       <div class="Editor-head">
         <h1>Editor's Choice</h1>
         <div class="divider mb-5 mt-2"> </div>
@@ -123,6 +122,26 @@
       </div>
     </div>
   </section>
+  
+  <!-- floating-button -->
+<div class="floating-button" id="chatbotToggle">
+  <span class="hand-wave">👋🏻</span>
+  <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Avatar">
+</div>
+<!-- Chatbot Modal -->
+<div class="chatbot-modal" id="chatbotModal">
+  <div class="chatbot-header">
+      Chat with Us 
+      <span class="close-btn" id="closeChatbot">&times;</span>
+  </div>
+  <div class="chatbot-body">
+      <p><b>Bot:</b> Hi! How can I help you today?</p>
+  </div>
+  <div class="chatbot-footer">
+      <input type="text" id="chatInput" placeholder="Type a message...">
+      <button id="sendBtn">Send</button>
+  </div>
+</div>
 
   <!--Article Gallery-->
   <section class="article-section py-4">
@@ -166,7 +185,6 @@
     </div>
     <br> <br>
   </section>
-
 
   <!--Swiper Collage Section-->
   <section class="collage-section pb-5">
