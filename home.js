@@ -1,3 +1,4 @@
+
 // Intersection Observer API for animations on scroll
 document.addEventListener("DOMContentLoaded", function () {
   const cards = document.querySelectorAll(".card");
@@ -69,3 +70,4 @@ function sendMessage() {
     chatBody.scrollTop = chatBody.scrollHeight; // Auto-scroll to latest message
   }, 1000);
 }
+
