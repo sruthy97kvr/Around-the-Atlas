@@ -661,3 +661,22 @@ h4 {
               opacity: 0;
           }
       }
+.Newsletter{
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&w=600");
+  color: white;
+}      
+#inputPassword{
+  width:30%;
+  margin-left: 560px;
+}
+.Newsletter h1{
+  font-family: "Kaushan Script", cursive;
+  color: white;
+
+}
+.Newsletter p{
+font-family: "Nunito", sans-serif;
+
+}
+
