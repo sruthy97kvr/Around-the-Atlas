@@ -39,53 +39,143 @@
 </section>
 
 <div class="container-fluid main">
-            <hr>
-            <div class="headtext heading m-5">
-                <h1 class="mt-5">Contact Us</h1>
+    <hr class="section-divider">
+    <div class="headtext heading">
+        <h1 class="mt-5 text-center section-heading headtext">Contact Us</h1>
+    </div>
+    <hr class="section-divider">
+    <div class="row">
+        <div class="col-md-4 contact-info">
+            <h4>Further Contact</h4>
+            <p class="content hover-underline">
+                <strong>Subscription :</strong> sub@aroundtheatlas
+            </p>
+            <p class="content hover-underline">
+                <strong>Editorial :</strong> editorial@aroundtheatlas
+            </p>
+            <p class="content hover-underline">
+                <strong>Partnership :</strong> partner@aroundtheatlas
+            </p>
+        </div>
+        
+        <div class="col-md-4 contact-icons">
+            <div class="contact-item">
+                <div class="overlay"></div>
+                <i class="fa-2x fa-solid fa-map-location-dot ic"></i>
+                <p class="content">
+                    <strong>Postal Address</strong><br>
+                    Capital House<br>
+                    25 Chapel Street<br>
+                    London, NW1 5DH
+                </p>
             </div>
-            <hr>
-            <div class="row">
-                <div class="col headtext" style="color: #5088a4;">
-                    <h4>Further Contact</h4>
-                    <p class="content hover-underline" style="color: #36969b;">
-                        <strong>Subscription :</strong> sub@aroundtheatlas
-                    </p>
-                    <p class="content hover-underline" style="color: #36969b;">
-                        <strong>Editorial :</strong> editorial@aroundtheatlas
-                    </p>
-                    <p class="content hover-underline" style="color: #36969b;">
-                        <strong>Partnership :</strong> partner@aroundtheatlas
-                    </p>
+            <div class="divider"></div>
+            <div class="contact-item">
+                <div class="overlay"></div>
+                <i class="fa-2x fa-solid fa-envelope ic"></i>
+                <p class="content">
+                    <strong>Email</strong><br>
+                    info@aroundtheatlas
+                </p>
+            </div>
+        </div>
+        
+        <!-- Third Column: Testimonials and FAQ -->
+        <div class="col-md-4">
+            <!-- Testimonials Section -->
+            <div class="testimonials">
+                <h4>What Our Clients Say</h4>
+                <div class="testimonial-item">
+                    <p class="content">"Around The Atlas provided an unforgettable travel experience! Highly recommended!"</p>
+                    <p class="content">- Jane Doe, Travel Enthusiast</p>
                 </div>
-                <div class="col"></div>
-                <div class="col">
+                <div class="testimonial-item">
+                    <p class="content">"Great tips and amazing stories. It inspired our next trip to Italy!"</p>
+                    <p class="content">- John Smith, Explorer</p>
+                </div>
+            </div>
 
-                <div style="display: flex; justify-content: center; gap: 20px;">
-                    <div style="display: flex; align-items: center; text-align: center; gap: 20px;">
-                        <div class="me-5" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                            <i class="fa-2x fa-solid fa-map-location-dot"></i>
-                            <p>
-                                <strong>Postal address</strong><br>
-                                Capital House<br>
-                                25 Chapel Street<br>
-                                London, 
-                                NW1 5DH
-                            </p>
-                        </div>
-                    
-                        <!-- Vertical Line -->
-                        <div style="width: 2px; height: 80px; background-color: #ccc;"></div>
-                    
-                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                            <i class="fa-2x fa-solid fa-envelope"></i>
-                            <p>
-                                <strong>Email</strong><br>
-                                info@aroundtheatlas
-                            </p>
-                        </div>
-                    </div>
-                    
-                </div></div>
+            <!-- FAQ Section -->
+            <div class="faq mt-5">
+                <h4>Frequently Asked Questions</h4>
+                <div class="faq-item">
+                    <strong>What destinations do you cover?</strong>
+                    <p>We cover a wide range of destinations, from tropical beaches to ancient ruins around the world.</p>
+                </div>
+                <div class="faq-item">
+                    <strong>How can I contribute to the magazine?</strong>
+                    <p>You can submit your travel stories and photos via the 'Contribute' section on our website.</p>
+                </div>
+                <div class="faq-item">
+                    <strong>How often is the magazine published?</strong>
+                    <p>Our magazine is published quarterly, with new issues every three months.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+
+
+<!-- Contact Form Section -->
+<div class="row mt-5">
+    <div class="col-md-6 offset-md-3">
+        <h3 class="section-heading text-center">Get in Touch</h3>
+        <form action="submit_form.php" method="POST">
+            <div class="mb-4">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-4">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<hr class="my-5">
+
+<!-- More about the Magazine -->
+<div class="row mt-5">
+    <div class="col-md-8 offset-md-2">
+        <h3 class="section-heading text-center">About Around The Atlas</h3>
+        <p>
+            Around The Atlas is a travel magazine that brings you closer to the world's most incredible destinations. 
+            From the beautiful beaches of the Maldives to the ancient ruins of Machu Picchu, we share breathtaking stories, 
+            travel tips, and expert advice to inspire your next adventure.
+        </p>
+        <p>
+            Whether you're a seasoned traveler or just dreaming of your next getaway, our magazine is your passport to 
+            exploring the world. Join us on a journey to discover hidden gems and unforgettable experiences.
+        </p>
+    </div>
+</div>
+
+<!-- Map Section -->
+<div class="row mt-5">
+    <div class="col-md-8 offset-md-2">
+        <h3 class="section-heading text-center">Find Us on the Map</h3>
+        <div class="map-container">
+            <!-- Embed Google Map -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.2067069208!2d-0.510375!3d51.2867608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d0bdc07c4f9%3A0xa457a6da3808f8c1!2sLondon%2C%20UK!5e0!3m2!1sen!2sus!4v1676996449020!5m2!1sen!2sus"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</div>
+
+
+
                 
             <div class="row">
                 <div class="col"></div>

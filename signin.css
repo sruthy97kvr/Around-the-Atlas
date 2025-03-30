@@ -1,0 +1,24 @@
+#form{
+    border-radius: 4px;
+}
+ body {
+    background-image: url(https://thepointsguy.global.ssl.fastly.net/us/originals/2021/12/Zermatt-Village-Matterhorn-Zermatt-Switzerland-scaled.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+     background-attachment: fixed; 
+ }
+ #form{
+    margin-top: 250px;
+   
+    
+ }
+ .transparent-input {
+    background-color: transparent;
+    border: 1px solid white; /* Change color as needed */
+    color: white; /* Change text color for visibility */
+}
+
+.transparent-input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Light placeholder text */
+}
