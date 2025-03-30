@@ -15,4 +15,15 @@
                 observer.observe(card);
             });
         });
-    
+
+
+//Swiper JS cards swiper configurations
+  var swiper = new Swiper(".mySwiper", {
+    effect: "cards", //apply stacking cards effect
+    grabCursor: true,//change cursor to grab
+    autoplay: {
+      delay: 3000, //delay the cards swipe motion
+      disableOnInteraction: false, //to avoid stopping autoplay on user interaction
+    },
+    loop: true, //for infinite loop
+  });
