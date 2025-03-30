@@ -195,8 +195,10 @@ body {
 }
 
 /* Editor's choice */
+
 .card {
-  width: 18rem;
+  width: 15rem;
+  gap: 10px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -260,12 +262,10 @@ body {
 /* Article gallery */
 .gallery-head h1 {
   font-family: "Kaushan Script";
-  color: #d9e9f2;
 }
 
 .gallery {
   display: flex;
-
 }
 
 .image-container {
@@ -273,7 +273,7 @@ body {
   overflow: hidden;
   border-radius: 10px;
   width: 350px;
-  height: 500px;
+  height: 430px;
 }
 
 .image-container img {
@@ -281,6 +281,7 @@ body {
   height: 100%;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
+  object-fit: cover;
 }
 
 .overlay {
@@ -396,7 +397,7 @@ body {
 .divider {
   width: 80%;
   margin: 0;
-  height: 5px;
+  height: 4px;
   background-color: rgba(0, 0, 0, 0.173);
   margin: 0 auto;
   border-radius: 100px;
@@ -405,23 +406,38 @@ body {
 
 /* Section Background Styles */
 .editor-choice {
-  background-color: aliceblue;
+  background-color: #efefef;
 }
 
 .article-section {
-  background: #caac74;
-  background: -webkit-linear-gradient(0deg, #130b07 0%, #799bb2 100%);
-  background: linear-gradient(0deg, #130b07 0%, #799bb2 100%);
+  background: #6daad0;
+  background: -webkit-linear-gradient(0deg, #1e120d 0%, #6daad0 100%);
+  background: linear-gradient(0deg, #efefef 0%, #6daad0 100%);
+  color: #d6e5ef;
+  padding: 0 8%;
 }
+
+.collage-section{
+  background-color: #efefef;
+}
+
+.foodArticle-section {
+background: #6daad0;
+  background: -webkit-linear-gradient(0deg, #6daad0 0%,#1e120d 100%);;
+  background: linear-gradient(0deg, #6daad0 0%,#efefef 100%);
+  color: #4a7996;
+  padding: 0 8%;
+} 
 
 /* Glassmorphism effect Quiz section */
 .quiz-section {
-  background-image: url(images/quiz\ bg.jpg);
+  background-image: url(images/quiz-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   position: relative;
+  padding: 0 4%;
 }
 
 .quiz-section::before {
@@ -461,7 +477,7 @@ h4 {
   right: 20px;
   color: white;
   padding: 10px 15px;
-  border-radius: 50px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -472,10 +488,12 @@ h4 {
   /* transition: transform 0.3s ease-in-out, background-color 0.3s; */
   text-decoration: none;
   white-space: nowrap;
+  z-index: 3;
 }
 
 .floating-button:hover {
   transform: scale(1.1);
+  z-index:3;
 
 }
 
@@ -485,6 +503,8 @@ h4 {
   height: 40px;
   border-radius: 50%;
   border: 2px solid white;
+  z-index:3;
+  object-fit: cover;
 }
 
 .hand-wave {
@@ -492,6 +512,7 @@ h4 {
   display: inline-block;
   animation: wave 1.5s infinite;
   transform-origin: 50% 100%;
+  z-index:3;
 }
 
 @keyframes wave {
@@ -532,6 +553,7 @@ h4 {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   animation: fadeInUp 0.3s ease-in-out;
+  z-index: 3;
 }
 
 @keyframes fadeInUp {
@@ -547,7 +569,7 @@ h4 {
 }
 
 .chatbot-header {
-  background: #007bff;
+  background: #0c80c8;
   color: white;
   padding: 10px;
   text-align: center;
@@ -572,10 +594,11 @@ h4 {
   padding: 5px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  width: 80%;
 }
 
 .chatbot-footer button {
-  background: #007bff;
+  background: #1d8ace;
   color: white;
   border: none;
   padding: 5px 10px;
@@ -584,7 +607,7 @@ h4 {
 }
 
 .chatbot-footer button:hover {
-  background: #0056b3;
+  background: #004976;
 }
 
 .close-btn {
