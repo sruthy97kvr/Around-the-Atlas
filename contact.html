@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="./contactstyle.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Dr+Sugiyama&family=Engagement&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quintessential&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -38,29 +39,19 @@
     </nav>
 </section>
 
-<div class="container-fluid main">
-    <hr class="section-divider">
-    <div class="headtext heading">
-        <h1 class="mt-5 text-center section-heading headtext">Contact Us</h1>
-    </div>
-    <hr class="section-divider">
-    <div class="row">
-        <div class="col-md-4 contact-info">
-            <h4>Further Contact</h4>
-            <p class="content hover-underline">
-                <strong>Subscription :</strong> sub@aroundtheatlas
-            </p>
-            <p class="content hover-underline">
-                <strong>Editorial :</strong> editorial@aroundtheatlas
-            </p>
-            <p class="content hover-underline">
-                <strong>Partnership :</strong> partner@aroundtheatlas
-            </p>
-        </div>
-        
-        <div class="col-md-4 contact-icons">
-            <div class="contact-item">
-                <div class="overlay"></div>
+<!-- main heading -->
+<div class="main-heading">
+    <h1 class="mt-5 text-center heading">Contact Us</h1>
+</div>
+
+<hr class="section-divider">
+
+<!-- contact informations -->
+<div class="row first-row d-flex justify-content-center align-items-center">
+
+    <!-- address -->
+    <div class="col-md-4 contact-icons">
+        <div class="contact-item">
                 <i class="fa-2x fa-solid fa-map-location-dot ic"></i>
                 <p class="content">
                     <strong>Postal Address</strong><br>
@@ -68,61 +59,109 @@
                     25 Chapel Street<br>
                     London, NW1 5DH
                 </p>
-            </div>
-            <div class="divider"></div>
-            <div class="contact-item">
-                <div class="overlay"></div>
-                <i class="fa-2x fa-solid fa-envelope ic"></i>
-                <p class="content">
-                    <strong>Email</strong><br>
+        </div>
+    </div>
+
+    <!-- email -->
+    <div class="col-md-4 contact-icons">
+        <div class="contact-item">
+            <i class="fa-2x fa-solid fa-envelope ic"></i>
+            <p class="content">
+                <strong>Email</strong><br>
                     info@aroundtheatlas
-                </p>
-            </div>
+            </p>
         </div>
-        
-        <!-- Third Column: Testimonials and FAQ -->
-        <div class="col-md-4">
-            <!-- Testimonials Section -->
-            <div class="testimonials">
-                <h4>What Our Clients Say</h4>
-                <div class="testimonial-item">
-                    <p class="content">"Around The Atlas provided an unforgettable travel experience! Highly recommended!"</p>
-                    <p class="content">- Jane Doe, Travel Enthusiast</p>
-                </div>
-                <div class="testimonial-item">
-                    <p class="content">"Great tips and amazing stories. It inspired our next trip to Italy!"</p>
-                    <p class="content">- John Smith, Explorer</p>
-                </div>
-            </div>
+    </div>
 
-            <!-- FAQ Section -->
-            <div class="faq mt-5">
-                <h4>Frequently Asked Questions</h4>
-                <div class="faq-item">
-                    <strong>What destinations do you cover?</strong>
-                    <p>We cover a wide range of destinations, from tropical beaches to ancient ruins around the world.</p>
-                </div>
-                <div class="faq-item">
-                    <strong>How can I contribute to the magazine?</strong>
-                    <p>You can submit your travel stories and photos via the 'Contribute' section on our website.</p>
-                </div>
-                <div class="faq-item">
-                    <strong>How often is the magazine published?</strong>
-                    <p>Our magazine is published quarterly, with new issues every three months.</p>
-                </div>
-            </div>
+    <!-- further contact -->
+    <div class="col-md-4 contact-item">
+        <h4 class="sub-head2">Further Contact</h4>
+        <p class="content hover-underline">
+            <strong>Subscription :</strong> sub@aroundtheatlas
+        </p>
+        <p class="content hover-underline">
+            <strong>Editorial :</strong> editorial@aroundtheatlas
+        </p>
+        <p class="content hover-underline">
+            <strong>Partnership :</strong> partner@aroundtheatlas
+        </p>
+    </div>
+
+</div>
+
+<!-- second row: cards -->
+<div class="second-row row d-flex justify-content-center align-items-center container-fluid">
+    <div class="col"><div class="container card" style="width: 18rem;">
+        <img src="https://scontent-lhr6-1.cdninstagram.com/v/t51.75761-15/484332822_18491261920006327_6756963813725609936_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=1-7&_nc_sid=18de74&_nc_ohc=Aw5XJzaBT64Q7kNvgFLr8DN&_nc_zt=23&_nc_ht=scontent-lhr6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=zxnbes3PJO9aYsknz0sLoA&oh=00_AYFjXdXByPPZH13BOOOqfat7i-SUT87D0F0HYUCuerg97g&oe=67EB0F00" class="card-img-top" alt="...">
+        <div class="overlay card-body">
+          <p class="text card-text content">Holi, also known as the Festival of Colors, is one of the most vibrant and joyous festivals celebrated in India. It marks the arrival of spring and the victory of good over evil.</p>
+        </div>
+      </div></div>
+    <div class="col"><div class="container card" style="width: 18rem;">
+        <img src="https://scontent-lhr8-1.cdninstagram.com/v/t51.75761-15/485126336_18492138580006327_2073876274350362072_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=hH9cjQuaHXQQ7kNvgH78tfO&_nc_zt=23&_nc_ht=scontent-lhr8-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=zxnbes3PJO9aYsknz0sLoA&oh=00_AYHpDqFD_vxgKeIZuJmtTXJUkv2LUXSw5Q0Y2D5IZXR8Eg&oe=67EB32E8" class="card-img-top" alt="...">
+        <div class="overlay card-body">
+          <p class="text card-text content">Venezia Giulia is a historical region located on the Adriatic Sea, encompassing parts of modern-day Friuli Venezia Giulia in Italy and Slovenia. </p>
+        </div>
+      </div></div>
+    <div class="col"><div class="container card" style="width: 18rem;">
+        <img src="https://scontent-lhr6-2.cdninstagram.com/v/t51.75761-15/484112330_18490913692006327_3538074053633435042_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=eHZIlP7VJz8Q7kNvgGAokYX&_nc_zt=23&_nc_ht=scontent-lhr6-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=zxnbes3PJO9aYsknz0sLoA&oh=00_AYHrttUHhgF_1ihf3Hjxz9_ZVkWLYCQ1iw1pX09S_Wl6Lg&oe=67EB2810" class="card-img-top" alt="...">
+        <div class="overlay card-body">
+          <p class="text card-text content">Scotland is a country that forms part of the United Kingdom, located in the northernmost part of Great Britain. It shares a border with England to the south .</p>
+        </div>
+      </div></div>
+    <div class="col"><div class="container card" style="width: 18rem;">
+        <img src="https://scontent-lhr6-1.cdninstagram.com/v/t51.75761-15/485491769_18492789985006327_4480029152909601750_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=1-7&_nc_sid=18de74&_nc_ohc=cQgr1aF7P3sQ7kNvgFm6LH8&_nc_zt=23&_nc_ht=scontent-lhr6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=zxnbes3PJO9aYsknz0sLoA&oh=00_AYHx-vJnYHX2mebq1FUjs_CONrfR6zX1OMq_5JlV9sLXyQ&oe=67EB18F2" class="card-img-top" alt="...">
+        <div class="overlay card-body">
+          <p class="text card-text content">Abu Dhabi is the capital city of the United Arab Emirates (UAE) and the largest of its seven emirates. Located on the southeastern coast of the Arabian Peninsula.</p>
+        </div>
+      </div></div>
+</div>
+
+
+<!-- Third row: Testimonials and FAQ -->
+<div class="third-row row d-flex justify-content-evenly align-items-center">
+
+<!-- Testimonials Section -->   
+<div class="col-md-4">
+    <div class="testimonials">
+        <h4 class="sub-head2">What Our Clients Say</h4>
+        <div class="testimonial-item">
+            <p class="content">"Around The Atlas provided an unforgettable travel experience! Highly recommended!"</p>
+            <p class="content">- Jane Doe, Travel Enthusiast</p>
+        </div>
+        <div class="testimonial-item">
+            <p class="content">"Great tips and amazing stories. It inspired our next trip to Italy!"</p>
+            <p class="content">- John Smith, Explorer</p>
         </div>
     </div>
 </div>
+
+<!-- FAQ Section -->
+<div class="col-md-4">
+    <div class="faq ">
+        <h4 class="sub-head2">Frequently Asked Questions</h4>
+        <div class="faq-item">
+            <strong class="content">What destinations do you cover?</strong>
+            <p class="content">We cover a wide range of destinations, from tropical beaches to ancient ruins around the world.</p>
+        </div>
+        <div class="faq-item">
+            <strong class="content">How can I contribute to the magazine?</strong>
+            <p class="content">You can submit your travel stories and photos via the 'Contribute' section on our website.</p>
+        </div>
+        <div class="faq-item">
+            <strong class="content">How often is the magazine published?</strong>
+            <p class="content">Our magazine is published quarterly, with new issues every three months.</p>
+        </div>
     </div>
 </div>
 
+</div>
 
 
 <!-- Contact Form Section -->
-<div class="row mt-5">
+<div class="fourth-row row mt-5">
     <div class="col-md-6 offset-md-3">
-        <h3 class="section-heading text-center">Get in Touch</h3>
+        <h3 class="sub-head1 text-center">Get in Touch</h3>
         <form action="submit_form.php" method="POST">
             <div class="mb-4">
                 <label for="name" class="form-label">Full Name</label>
@@ -145,26 +184,10 @@
 
 <hr class="my-5">
 
-<!-- More about the Magazine -->
-<div class="row mt-5">
-    <div class="col-md-8 offset-md-2">
-        <h3 class="section-heading text-center">About Around The Atlas</h3>
-        <p>
-            Around The Atlas is a travel magazine that brings you closer to the world's most incredible destinations. 
-            From the beautiful beaches of the Maldives to the ancient ruins of Machu Picchu, we share breathtaking stories, 
-            travel tips, and expert advice to inspire your next adventure.
-        </p>
-        <p>
-            Whether you're a seasoned traveler or just dreaming of your next getaway, our magazine is your passport to 
-            exploring the world. Join us on a journey to discover hidden gems and unforgettable experiences.
-        </p>
-    </div>
-</div>
-
 <!-- Map Section -->
-<div class="row mt-5">
+<div class="fifth-row row mt-5">
     <div class="col-md-8 offset-md-2">
-        <h3 class="section-heading text-center">Find Us on the Map</h3>
+        <h3 class="sub-head1 text-center">Find Us on the Map</h3>
         <div class="map-container">
             <!-- Embed Google Map -->
             <iframe
@@ -177,33 +200,7 @@
 
 
                 
-            <div class="row">
-                <div class="col"></div>
-                <div class="col"><div class="container card" style="width: 18rem;">
-                    <img src="https://scontent-lhr6-1.cdninstagram.com/v/t51.75761-15/484332822_18491261920006327_6756963813725609936_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=1-7&_nc_sid=18de74&_nc_ohc=Aw5XJzaBT64Q7kNvgFLr8DN&_nc_zt=23&_nc_ht=scontent-lhr6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=zxnbes3PJO9aYsknz0sLoA&oh=00_AYFjXdXByPPZH13BOOOqfat7i-SUT87D0F0HYUCuerg97g&oe=67EB0F00" class="card-img-top" alt="...">
-                    <div class="overlay card-body">
-                      <p class="text card-text content">Holi, also known as the Festival of Colors, is one of the most vibrant and joyous festivals celebrated in India. It marks the arrival of spring and the victory of good over evil.</p>
-                    </div>
-                  </div></div>
-                <div class="col"><div class="container card" style="width: 18rem;">
-                    <img src="https://scontent-lhr8-1.cdninstagram.com/v/t51.75761-15/485126336_18492138580006327_2073876274350362072_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=hH9cjQuaHXQQ7kNvgH78tfO&_nc_zt=23&_nc_ht=scontent-lhr8-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=zxnbes3PJO9aYsknz0sLoA&oh=00_AYHpDqFD_vxgKeIZuJmtTXJUkv2LUXSw5Q0Y2D5IZXR8Eg&oe=67EB32E8" class="card-img-top" alt="...">
-                    <div class="overlay card-body">
-                      <p class="text card-text content">Venezia Giulia is a historical region located on the Adriatic Sea, encompassing parts of modern-day Friuli Venezia Giulia in Italy and Slovenia. </p>
-                    </div>
-                  </div></div>
-                <div class="col"><div class="container card" style="width: 18rem;">
-                    <img src="https://scontent-lhr6-2.cdninstagram.com/v/t51.75761-15/484112330_18490913692006327_3538074053633435042_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=eHZIlP7VJz8Q7kNvgGAokYX&_nc_zt=23&_nc_ht=scontent-lhr6-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=zxnbes3PJO9aYsknz0sLoA&oh=00_AYHrttUHhgF_1ihf3Hjxz9_ZVkWLYCQ1iw1pX09S_Wl6Lg&oe=67EB2810" class="card-img-top" alt="...">
-                    <div class="overlay card-body">
-                      <p class="text card-text content">Scotland is a country that forms part of the United Kingdom, located in the northernmost part of Great Britain. It shares a border with England to the south .</p>
-                    </div>
-                  </div></div>
-                <div class="col"><div class="container card" style="width: 18rem;">
-                    <img src="https://scontent-lhr6-1.cdninstagram.com/v/t51.75761-15/485491769_18492789985006327_4480029152909601750_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=1-7&_nc_sid=18de74&_nc_ohc=cQgr1aF7P3sQ7kNvgFm6LH8&_nc_zt=23&_nc_ht=scontent-lhr6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=zxnbes3PJO9aYsknz0sLoA&oh=00_AYHx-vJnYHX2mebq1FUjs_CONrfR6zX1OMq_5JlV9sLXyQ&oe=67EB18F2" class="card-img-top" alt="...">
-                    <div class="overlay card-body">
-                      <p class="text card-text content">Abu Dhabi is the capital city of the United Arab Emirates (UAE) and the largest of its seven emirates. Located on the southeastern coast of the Arabian Peninsula.</p>
-                    </div>
-                  </div></div>
-                <div class="col"></div>
+            
 
                 <!-- foroter -->
 <section class="footer">
@@ -258,10 +255,10 @@
       </div> <br><br>
   </div>
 </section>
-            </div>
+            
         
         
-    </div>
+
     
 </body>
 </html>

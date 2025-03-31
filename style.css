@@ -418,7 +418,11 @@ body {
   padding: 0 8%;
 }
 
-.collage-section {
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+.collage-section{
   background-color: #efefef;
 }
 
