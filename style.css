@@ -17,11 +17,15 @@ body {
 .service ul li a {
   text-decoration: none;
   color: white;
-
+}
+.navbar ul li a{
+  color: white
+}
+.navbar .dropdown-menu{
+  background-color: rgba(0, 0, 0, 0.633);
 }
 
 .navbar {
-
   background-color: rgba(0, 0, 0, 0.766) !important;
   transition: background-color 0.3s ease-in-out;
   z-index: 0;

@@ -9,7 +9,10 @@ body {
   background-color: rgba(255, 255, 255, 0.686);
   transition: background-color 0.3s ease-in-out;
 }
-
+.navbar .dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.75);
+  border: none;
+}
 /*------------*/
 .mainContainer {
   width: 100%;

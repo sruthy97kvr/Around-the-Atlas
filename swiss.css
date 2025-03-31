@@ -4,6 +4,16 @@
     box-sizing: border-box;
     
 }
+
+/* navbar styles */
+.navbar ul li a {
+    color: white
+}
+
+.navbar .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.597);
+}
+
 .container-fluid{
 
     /* border-radius: 10px; */
