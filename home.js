@@ -263,3 +263,12 @@ t7.from(".quiz-container", {
   ease: "ease-in",
   duration: 0.6,
 });
+
+/* Initializing tooltips */
+
+const tooltipTriggerList = document.querySelectorAll(
+  '[data-bs-toggle="tooltip"]'
+);
+const tooltipList = [...tooltipTriggerList].map(
+  (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+);
