@@ -4,15 +4,15 @@
     box-sizing: border-box;
     
 }
+    /* navbar styles */
 
-/* navbar styles */
-.navbar ul li a {
-    color: white
-}
+    .navbar ul li a{
+        color: white
+      }
+      .navbar .dropdown-menu{
+        background-color: rgba(0, 0, 0, 0.633);
+      }
 
-.navbar .dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.597);
-}
 
 .container-fluid{
 
@@ -74,7 +74,7 @@ body{
 .discover{
     font-family: "Sour Gummy", sans-serif;
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 34px;
     color: #F4D03F; 
 }
 
