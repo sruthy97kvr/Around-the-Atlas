@@ -349,7 +349,7 @@ body {
 }
 
 .swiper {
-  width: 65%;
+  width: 60%;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 18px;
 }
@@ -413,26 +413,28 @@ body {
 .article-section {
   background: #6daad0;
   background: -webkit-linear-gradient(0deg, #1e120d 0%, #6daad0 100%);
-  background: linear-gradient(0deg, #efefef 0%, #6daad0 100%);
-  color: #d6e5ef;
+  background: linear-gradient(0deg, #4c4c4c 0%, #242322 100%);
+  color: #efefef;
   padding: 0 8%;
 }
 
-.collage-section{
+.collage-section {
   background-color: #efefef;
 }
 
+
 .foodArticle-section {
-background: #6daad0;
-  background: -webkit-linear-gradient(0deg, #6daad0 0%,#1e120d 100%);;
-  background: linear-gradient(0deg, #6daad0 0%,#efefef 100%);
-  color: #4a7996;
+  background: #6daad0;
+  background: -webkit-linear-gradient(0deg, #6daad0 0%, #1e120d 100%);
+  ;
+  background: linear-gradient(0deg, #4c4c4c 0%, #242322 100%);
+  color: #efefef;
   padding: 0 8%;
-} 
+}
 
 /* Glassmorphism effect Quiz section */
 .quiz-section {
-  background-image: url(images/quiz-bg.jpg);
+  /* background-image: url(images/quiz-bg.jpg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -448,7 +450,7 @@ background: #6daad0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.456);
+  background-color: rgba(48, 46, 40, 0.853);
   backdrop-filter: blur(1px);
   z-index: 0;
 }
@@ -494,7 +496,7 @@ h4 {
 
 .floating-button:hover {
   transform: scale(1.1);
-  z-index:3;
+  z-index: 3;
 
 }
 
@@ -504,7 +506,7 @@ h4 {
   height: 40px;
   border-radius: 50%;
   border: 2px solid white;
-  z-index:3;
+  z-index: 3;
   object-fit: cover;
 }
 
@@ -513,7 +515,7 @@ h4 {
   display: inline-block;
   animation: wave 1.5s infinite;
   transform-origin: 50% 100%;
-  z-index:3;
+  z-index: 3;
 }
 
 @keyframes wave {
@@ -620,72 +622,175 @@ h4 {
   color: white;
 }
 
+/* Fullscreen Preloader */
+#preloader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  overflow: hidden;
+}
 
-        /* Fullscreen Preloader */
-        #preloader {
-          position: fixed;
-          width: 100%;
-          height: 100%;
-          background: white;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          z-index: 1000;
-          overflow: hidden;
-      }
+/* Flight Animation */
+.flight-container {
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+  width: 200px;
+  animation: takeOff 3s ease-in-out forwards;
+}
 
-      /* Flight Animation */
-      .flight-container {
-          position: absolute;
-          bottom: 10%; 
-          left: 20%; 
-          width: 200px;
-          animation: takeOff 3s ease-in-out forwards;
-      }
+.flight-container img {
+  width: 100%;
+  transform: rotate(15deg);
+}
 
-      .flight-container img {
-          width: 100%;
-          transform: rotate(15deg);
-      }
+/* Smooth Curved Takeoff Path */
+@keyframes takeOff {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 1;
+  }
 
-      /* Smooth Curved Takeoff Path */
-      @keyframes takeOff {
-          0% {
-              transform: translate(0, 0) rotate(0deg);
-              opacity: 1;
-          }
-          /* 50% {
+  /* 50% {
               transform: translate(150px, -150px) rotate(0deg); 
           } */
-          100% {
-              transform: translate(400px, -500px) rotate(0deg); 
-              opacity: 0;
-          }
-      }
-.Newsletter{
+  100% {
+    transform: translate(400px, -500px) rotate(0deg);
+    opacity: 0;
+  }
+}
+
+.Newsletter {
   text-align: center;
   background-image: url("https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&w=600");
+  filter: contrast(0.9) saturate(0.8) hue-rotate(5deg);
   background-size: contain;
   background-position: center;
   color: white;
-}      
-#inputEmail{
-  width:30%;
+}
+
+#inputEmail {
+  width: 30%;
   min-width: 300px;
   margin: 0 auto;
 }
-.Newsletter h1{
+
+.Newsletter h1 {
   font-family: "Kaushan Script", cursive;
   color: white;
 
 }
-.Newsletter p{
-font-family: "Nunito", sans-serif;
+
+.Newsletter p {
+  font-family: "Nunito", sans-serif;
 
 }
 
-.form-check a{
+.form-check a {
   text-decoration: none;
   color: white;
 }
 
+/*Travel Tips Section*/
+.travel-tips-section {
+  background-color: #efefef;
+  padding: 30px 0; 
+}
+
+.travel-tips-section .container {
+  width: 100%;
+}
+
+.travel-tips-section .subHeading {
+  color: black;
+  font-family: "Kaushan Script", cursive;
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+}
+
+.travel-tips-section .accordion-item{
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.travel-tips-section .accordion-header{
+  background-color: #81b3bf;
+}
+
+.travel-tips-section .accordion-button{
+  padding: 15px;
+  color: black;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.travel-tips-section .accordion-button:not(.collapsed) {
+  background-color: #d8b687;
+  color: #030303;
+  box-shadow: none;
+}
+
+.travel-tips-section .accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.travel-tips-section .accordion-button:hover {
+  background-color: #d7b789;
+  color: #212121;
+}
+
+.travel-tips-section .accordion-body{
+  padding: 20px;
+  color: black;
+  border-top: 1px solid #ddd;
+}
+
+/* Travel essentials section */
+.info-section{
+  background-color:#efefef;
+}
+
+.travel-essentials-section{
+  background-color: #efefef;
+  padding: 30px 0;
+}
+
+.travel-essentials-section .container{
+  width: 100%;
+}
+
+.travel-essentials-section .subHeading {
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.travel-essentials-section .list-group-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #d8b17cca;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+font-weight: 600;
+}
+
+.travel-essentials-section .list-group-item:hover {
+  transform: translateY(-3px);
+}
