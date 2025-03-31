@@ -56,6 +56,7 @@
 
 .contact-item:hover {
   transform: scale(1.05);
+  text-decoration: none;
 }
 
 .contact-item i {
@@ -145,7 +146,7 @@
   color: #36969b;
 }
 
-.content:hover {
+.content-hover-underline:hover {
   text-decoration: underline;
   cursor: pointer;
 }
