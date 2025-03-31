@@ -657,3 +657,23 @@ font-family: "Nunito",serif;}
         margin: 10px 0;
     }
 }
+
+/* Scrollbar custom */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000c7;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #000000e9;
+    height: 50px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #284c7b41;
+}
