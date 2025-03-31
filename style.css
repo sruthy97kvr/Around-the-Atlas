@@ -7,6 +7,7 @@
 
 body {
   overflow-x: hidden;
+  background-color: #efefef;
 }
 
 .service ul li {
@@ -348,7 +349,7 @@ body {
 }
 
 .swiper {
-  width: 65%;
+  width: 60%;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 18px;
 }
@@ -412,11 +413,10 @@ body {
 .article-section {
   background: #6daad0;
   background: -webkit-linear-gradient(0deg, #1e120d 0%, #6daad0 100%);
-  background: linear-gradient(0deg, #efefef 0%, #6daad0 100%);
-  color: #d6e5ef;
+  background: linear-gradient(0deg, #4c4c4c 0%, #242322 100%);
+  color: #efefef;
   padding: 0 8%;
 }
-
 
 .image-container:hover img {
   transform: scale(1.1);
@@ -426,25 +426,25 @@ body {
   background-color: #efefef;
 }
 
+
 .foodArticle-section {
   background: #6daad0;
   background: -webkit-linear-gradient(0deg, #6daad0 0%, #1e120d 100%);
   ;
-  background: linear-gradient(0deg, #6daad0 0%, #efefef 100%);
-  color: #4a7996;
+  background: linear-gradient(0deg, #4c4c4c 0%, #242322 100%);
+  color: #efefef;
   padding: 0 8%;
 }
 
 /* Glassmorphism effect Quiz section */
 .quiz-section {
-  background-image: url(images/quiz-bg.jpg);
+  /* background-image: url(images/quiz-bg.jpg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   position: relative;
   padding: 0 4%;
-
 }
 
 .quiz-section::before {
@@ -454,7 +454,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.456);
+  background-color: rgba(48, 46, 40, 0.853);
   backdrop-filter: blur(1px);
   z-index: 0;
 }
@@ -474,125 +474,6 @@ body {
 }
 
 h4 {
-  color: white;
-}
-
-
-/* Collage Swiper */
-.heading {
-  font-family: "Kaushan Script", cursive;
-  color: rgb(0, 13, 11);
-}
-
-.collage-container {
-  position: relative;
-  margin: 0px 0 60px 0;
-}
-
-.swiper {
-  width: 65%;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 18px;
-}
-
-.swiper-slide {
-  border-radius: 18px;
-}
-
-.swiper-slide img {
-  width: 100%;
-  border-radius: 18px;
-}
-
-.swiper-next,
-.swiper-prev {
-  color: #000000;
-}
-
-/* quizSection */
-.quiz-section{
-  width: 100%;
-  height: 100vh;
-}
-
-/* Scrollbar custom */
-::-webkit-scrollbar {
-  width: 9px;
-}
-
-::-webkit-scrollbar-track {
-  background: #000000c7;
-}
-
-
-::-webkit-scrollbar-thumb {
-  background: #000000e9;
-  height: 50px;
-}
-
-
-::-webkit-scrollbar-thumb:hover {
-  background: #284c7b41;
-}
-
-/* divider */
-.divider {
-  width: 80%;
-  margin: 0;
-  height: 5px;
-  background-color: rgba(0, 0, 0, 0.173);
-  margin: 0 auto;
-  border-radius: 100px;
-}
-
-
-/* Section Background Styles */
-.editor-choice{
-background-color: aliceblue;
-}
-
-.article-section{
-background: #caac74;
-  background: -webkit-linear-gradient(0deg, #130b07 0%, #799bb2 100%);
-  background: linear-gradient(0deg, #130b07 0%, #799bb2 100%);
-}
-
-/* Glassmorphism effect Quiz section */
-.quiz-section{
-  background-image: url(images/quiz\ bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  position: relative;
-}
-.quiz-section::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.456);
-  backdrop-filter: blur(1px);
-  z-index:0;
-}
-
-.quiz-container{
-  background: rgba(255, 255, 255, 0.804);
-    backdrop-filter: blur(6px);
-    border: 1px solid rgba(0, 0, 0, 0.052);
-    border-radius: 20px;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    padding: 20px;
-    text-align: center;
-    position: relative;
-    z-index:1;
-    width: 90%;
-    padding: 50px 20px;
-}
-
-h4{
   color: white;
 }
 
@@ -745,7 +626,6 @@ h4{
   color: white;
 }
 
-
 /* Fullscreen Preloader */
 #preloader {
   position: fixed;
@@ -792,9 +672,10 @@ h4{
 .Newsletter {
   text-align: center;
   background-image: url("https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&w=600");
-  color: white;
+  filter: contrast(0.9) saturate(0.8) hue-rotate(5deg);
   background-size: contain;
   background-position: center;
+  color: white;
 }
 
 #inputEmail {
@@ -814,21 +695,106 @@ h4{
 
 }
 
-
 .form-check a {
   text-decoration: none;
   color: white;
 }
 
+/*Travel Tips Section*/
+.travel-tips-section {
+  background-color: #efefef;
+  padding: 30px 0; 
+}
 
-      .close-btn {
-          position: absolute;
-          right: 10px;
-          top: 5px;
-          cursor: pointer;
-          font-size: 18px;
-          color: white;
-      }
+.travel-tips-section .container {
+  width: 100%;
+}
 
+.travel-tips-section .subHeading {
+  color: black;
+  font-family: "Kaushan Script", cursive;
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+}
 
+.travel-tips-section .accordion-item{
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
 
+.travel-tips-section .accordion-header{
+  background-color: #81b3bf;
+}
+
+.travel-tips-section .accordion-button{
+  padding: 15px;
+  color: black;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.travel-tips-section .accordion-button:not(.collapsed) {
+  background-color: #d8b687;
+  color: #030303;
+  box-shadow: none;
+}
+
+.travel-tips-section .accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.travel-tips-section .accordion-button:hover {
+  background-color: #d7b789;
+  color: #212121;
+}
+
+.travel-tips-section .accordion-body{
+  padding: 20px;
+  color: black;
+  border-top: 1px solid #ddd;
+}
+
+/* Travel essentials section */
+.info-section{
+  background-color:#efefef;
+}
+
+.travel-essentials-section{
+  background-color: #efefef;
+  padding: 30px 0;
+}
+
+.travel-essentials-section .container{
+  width: 100%;
+}
+
+.travel-essentials-section .subHeading {
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.travel-essentials-section .list-group-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #d8b17cca;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+font-weight: 600;
+}
+
+.travel-essentials-section .list-group-item:hover {
+  transform: translateY(-3px);
+}
